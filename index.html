@@ -7,10 +7,13 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
+		<link rel="stylesheet" href="./font/GmarketSansLight.otf" />
 		<link rel="stylesheet" href="./font/GmarketSansMedium.otf" />
 		<link rel="stylesheet" href="./font/Pretendard-Medium.otf" />
-		<link rel="stylesheet" href="./font/TmonMonsori.otf.otf" />
+		<link rel="stylesheet" href="./font/TmonMonsori.otf" />
 		<link rel="stylesheet" href="./style.css" />
+		<!-- 로딩바 css -->
+		<link rel="stylesheet" href="./loding.css" />
 		<title>Introduce</title>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script
@@ -18,120 +21,142 @@
 			crossorigin="anonymous"
 		></script>
 	</head>
+
 	<body>
+		<!--로딩 시작-->
+		<div id="hiddenElement" class="Parent-loading">
+			<div class="loding-animation-holder">
+				<div class="loading-animator"></div>
+				<div class="loading-animator"></div>
+				<div class="loading-animator"></div>
+				<div class="loading-animator"></div>
+				<div class="middle-circle"></div>
+			</div>
+			<div class="lod">
+				<h1>loading</h1>
+				<div class="loading_bar">
+					<div class="loading_bar_progress"></div>
+				</div>
+			</div>
+		</div>
+		<!--로딩 끝-->
+
 		<main id="main">
 			<section class="section1">
-				<div class="loading"></div>
 				<div class="textbox">
 					<h1 class="title">WELCOME TO MY <br />PORTFOLIO</h1>
+					<h2>
+						안녕하세요. 저의 포트폴리오에 오신것을 환영합니다.<br />
+						제 노력의 작업물을 편하게 즐겨주세요. 감사합니다:)
+					</h2>
 				</div>
 			</section>
 
 			<section class="section2">
 				<div class="sect2_txt">
 					<div class="text_t1">LET'S INTRODUCE</div>
-					<div class="text_t2">Lorem, ipsum dolor.</div>
-					<div class="text_t3">WORKS OF PORTFOLIO</div>
+					<div class="text_t2">Kim Yeo Kyeoung's</div>
+					<div class="text_t3">Works of Portfolio</div>
 				</div>
-				<div class="text_t4">
-					"Lorem ipsum dolor sit amet consectetur adipisicing."
-				</div>
+				<div class="text_t4">"If you try, your dreams come true."</div>
 				<div class="profile_img1">
-					<img src="img/profile.png" alt="" />
+					<img src="img/photo/profile.png" alt="" />
 				</div>
 
 				<ul>
 					<li class="text1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit
-						Assumenda hic modi itaque vitae corporis laudantium.
-					</li>
-					<li class="text2">
-						Assumenda hic modi itaque vitae corporis laudantium.
-					</li>
-					<li class="text3">
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit.
-					</li>
-					<li class="text4">
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Dignissimos corporis ratione voluptate?
-					</li>
-					<li class="text5">
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit. Asperiores, corrupti.
+						안녕하세요 배우는 것을 좋아하고 끊임없이 도전하고
+						경험하며 <br />
+						성장하고자 하는 신입 퍼블리셔 김여경입니다. <br />
+						저는 어떤 일이라도 끊임없이 노력하면 반드시 좋은결과가
+						따라온다고 <br />생각하기에 열정과 도전정신을 깊숙히
+						새기고 있습니다. <br />또한 배움에 있어 열정과 긍정적인
+						자세를 갖고 겸손함을 유지하며<br />
+						세부적인 부분까지 꼼꼼하게 살펴보도록 최선을
+						다하겠습니다.
 					</li>
 				</ul>
 			</section>
 
 			<!-- //section2 -->
+
 			<section class="section3">
 				<div class="inner">
 					<div class="skill_box">
-						<div class="skill_box">
-							<h2>I CAN HANDLE <br />THESE SKILLS</h2>
-							<ul class="skill_cont">
-								<li class="skill_wrap">
-									<img src="" alt="" />
-								</li>
-								<li class="skill_wrap">
-									<img src="" alt="" />
-								</li>
-								<li class="skill_wrap">
-									<img src="" alt="" />
-								</li>
-								<li class="skill_wrap">
-									<img src="" alt="" />
-								</li>
-								<li class="skill_wrap">
-									<img src="" alt="" />
-								</li>
+						<h2>THESE SKILLS</h2>
+
+						<nav class="skill_cont">
+							<ul class="html">
+								<li>HTML & CSS</li>
 							</ul>
-						</div>
+							<ul class="javaScript">
+								<li>JAVASCRIPT</li>
+							</ul>
+							<ul class="jquery">
+								<li>JQUERY</li>
+							</ul>
+							<ul class="photoshop">
+								<li>PHOTOSHOP</li>
+							</ul>
+							<ul class="illustration">
+								<li>ILLUSTRATION</li>
+							</ul>
+						</nav>
+						<!--skill_cont End-->
 					</div>
+					<!--skill_box End-->
 				</div>
 			</section>
+			<!--section3 End-->
+
 			<section class="section4">
 				<div class="inner">
 					<div class="wrap">
 						<div class="img1">
-							<span>Lorem.</span>
+							<span>Earnest</span>
 							<a href="#"
-								><img src="img/photo/img01.png" alt=""
+								><img src="img/photo/img01.png" alt="myphoto1"
 							/></a>
 						</div>
 						<div class="right">
 							<p>
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Aut, natus. Incidunt officiis
-								facilis accusantium sint dicta amet odit
-								voluptatum maiores. Beatae laborum ea deserunt
-								optio assumenda cum saepe, accusamus corporis
-								quod reiciendis, libero est necessitatibus vel
-								voluptates doloremque voluptate aperiam! Minus
-								aperiam laudantium, quia eveniet repellat
-								itaque. Unde ex officia voluptate reprehenderit.
-								Vero, aliquid itaque quibusdam ipsam debitis
-								laboriosam. Quo.
+								저는 배우는 것을 좋아하고 새로운 도전에 대한
+								열정과 긍정적인 자세를 가지고 있습니다. 저는 더
+								나은 결과물이 나올 수 있도록 끊임없이 고민하고
+								어려운일이 있어도 맡은일에는 책임감 있게
+								포기하지 않고 끝까지 집중하여 해결책을
+								찾아내도록 노력하겠습니다. 아직 많이 부족하지만
+								지속적인 학습과 개인 발전을 통해 성장하여
+								사용자들에게 더 가치 있는 웹 경험을
+								제공하도록<br />최선을 다하겠습니다.
 							</p>
 						</div>
 					</div>
 					<div class="myphoto">
 						<div class="img2">
-							<span>Lorem.</span>
-							<a href="#"><img src="" alt="myphoto1" /></a>
+							<span>Positive</span>
+							<a href="#"
+								><img src="img/photo/img02.png" alt="myphoto2"
+							/></a>
 						</div>
 						<div class="img3">
-							<span>Lorem.</span>
-							<a href="#"><img src="" alt="myphoto2" /></a>
+							<span>Meticulous</span>
+							<a href="#"
+								><img src="img/photo/img03.png" alt="myphoto3"
+							/></a>
 						</div>
 						<div class="img4">
-							<span>Lorem.</span>
-							<a href="#"><img src="" alt="myphoto3" /></a>
+							<span>Responsible</span>
+							<a href="#"
+								><img src="img/photo/img04.png" alt="myphoto4"
+							/></a>
 						</div>
 					</div>
 				</div>
+				<!--inner End-->
 			</section>
 			<!-- //section4 -->
+
 			<section class="section5">
 				<div class="inner">
 					<h2>ABOUT MY <br />WEB SITE PROJECT</h2>
@@ -140,66 +165,85 @@
 							<h3 class="num">01</h3>
 							<h4>WEB SITE PROJECT</h4>
 							<p>
-								WEB SITE PROJECT 01WEB SITE PROJECT 01WEB SITE
-								PROJECT 010 T 01WEB SITE T 01WEB SITE PROJECT01R
-								OJECT 0101T 01WEB SITE PROJECT 01R OJECT 01ROJEC
-								T01ROJECT01ROJECT 01ROJECT 01ROJECT 01ROJECT
-								01R0 1 OJECT01ROJECT 01ROJECT 01ROJECT T 01WEB
-								SITE PRO JECT01T
+								제가 좋아하는 커피를 주제로 하여 웹 사이트를
+								제작하였습니다. <br />그 중 이디아 브랜드를
+								선택하여 웹사이트의 문제점을 찾아 분석하여 기획,
+								디자인, 퍼블리싱까지 다시 새롭게
+								제작해보았습니다. 이미지 슬라이드, 텍스트 유형,
+								카드 유형, 탭 기능 등 제이쿼리를 이용하여 구현
+								하였으며, 반응형 작업까지 완료하였습니다.
 							</p>
 						</div>
 						<div class="pro_cont">
 							<figure>
-								<img src="img/project/pc.png" alt="" />
+								<img src="img/project/ediya_pc.png" alt="" />
 							</figure>
-							<h4 class="view"><a href="#">VIEW SITE</a></h4>
+							<h4 class="view">
+								<a href="https://kyk9412.github.io/ediya/"
+									>VIEW SITE</a
+								>
+							</h4>
 						</div>
 					</article>
 				</div>
 			</section>
 			<!-- //section5-->
+
 			<section class="section6">
 				<article class="project">
 					<div class="project2_text">
 						<h3 class="num">02</h3>
 						<h4>WEB SITE PROJECT</h4>
 						<p>
-							WEB SITE PROJECT 01WEB SITE PROJECT 01WEB SITE
-							PROJECT 010 T 01WEB SITE T 01WEB SITE PROJECT01R
-							OJECT 0101T 01WEB SITE PROJECT 01R OJECT 01ROJEC
-							T01ROJECT01ROJECT 01ROJECT 01ROJECT 01ROJECT 01R0 1
-							OJECT01ROJECT 01ROJECT 01ROJECT T 01WEB SITE PRO
-							JECT01T
+							화장품 브랜드중 착한 자연 유래 성분으로 유명한
+							아이소이를 선택하여 기획,디자인,퍼블리싱까지
+							개인작업으로 이루어진 웹사이트입니다. 아이소이
+							대표제품인 잡티개선 세럼을 메인페이지에 영상으로
+							소개하였고, 중복되는 불필요한 버튼을 최소화하여
+							깔끔함을 강조하여 제작해 보았습니다. Swiper를
+							이용하여 이미지 슬라이드를 구현했으며 미디어 쿼리를
+							활용하여 반응형 작업까지 완료하였습니다.
 						</p>
 					</div>
 					<div class="pro_cont">
 						<figure>
-							<img src="img/project/pc.png" alt="" />
+							<img src="img/project/isoi_pc.png" alt="" />
 						</figure>
-						<h4 class="view"><a href="#">VIEW SITE</a></h4>
+						<h4 class="view">
+							<a href="https://kyk9412.github.io/isoi/"
+								>VIEW SITE</a
+							>
+						</h4>
 					</div>
 				</article>
 			</section>
 			<!-- //section6-->
+
 			<section class="section7">
 				<article class="project">
 					<div class="project3_text">
 						<h3 class="num">03</h3>
 						<h4>WEB SITE PROJECT</h4>
 						<p>
-							WEB SITE PROJECT 01WEB SITE PROJECT 01WEB SITE
-							PROJECT 010 T 01WEB SITE T 01WEB SITE PROJECT01R
-							OJECT 0101T 01WEB SITE PROJECT 01R OJECT 01ROJEC
-							T01ROJECT01ROJECT 01ROJECT 01ROJECT 01ROJECT 01R0 1
-							OJECT01ROJECT 01ROJECT 01ROJECT T 01WEB SITE PRO
-							JECT01T
+							클론 코딩으로 만든 베스킨라빈스 홈페이지입니다.
+							Swiper를 이용하여 이미지 슬라이드 효과를 구현했으며,
+							JavaScript를 활용하여 이벤트 처리를 구현하였고,
+							애니메이션 기능을 구현하여 웹 페이지를 더 생동감
+							있게 제작해 보았습니다. 또한 미디어 쿼리를 활용하여
+							반응형 작업까지 완료하였습니다.
 						</p>
 					</div>
 					<div class="pro_cont">
 						<figure>
-							<img src="img/project/pc.png" alt="" />
+							<img src="img/project/baskin_pc.png" alt="" />
 						</figure>
-						<h4 class="view"><a href="#">VIEW SITE</a></h4>
+						<h4 class="view">
+							<a
+								href="https://kyk9412.github.io/baskin/"
+								target="_blank"
+								>VIEW SITE</a
+							>
+						</h4>
 					</div>
 				</article>
 			</section>

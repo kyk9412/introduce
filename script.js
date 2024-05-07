@@ -1,3 +1,35 @@
+window.onload = function () {
+	setTimeout(startLoadingAnimation, 0);
+	setTimeout(fadeOutElement, 3000);
+	setTimeout(noneElement, 3500);
+};
+
+const element = document.getElementById("hiddenElement");
+// css 조작 함수
+function fadeOutElement() {
+	element.style.opacity = 0;
+}
+function noneElement() {
+	element.style.display = "none";
+}
+
+// 로딩 바 요소 가져오기
+const barElement = document.querySelector(".loading_bar_progress");
+
+// 로딩 바 애니메이션 실행
+function startLoadingAnimation() {
+	const startTime = Date.now();
+	function updateAnimation() {
+		const currentTime = Date.now();
+		const progress = (currentTime - startTime) / 3000;
+		if (progress > 1) progress = 1;
+		barElement.style.width = progress * 100 + "%";
+		if (progress < 1) requestAnimationFrame(updateAnimation); // 애니메이션 반복
+	}
+	requestAnimationFrame(updateAnimation);
+}
+
+// 스크롤시 소개페이지 글씨 이벤트
 let sect2_txt = document.querySelector(".sect2_txt");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
@@ -20,6 +52,18 @@ window.addEventListener("scroll", function () {
 	}
 });
 
+// 스크롤시 소개페이지 이미지 이벤트
+let profile = document.querySelector(".profile_img1");
+window.addEventListener("scroll", function () {
+	let value = window.scrollY;
+	console.log("scroll", value);
+	if (value < 650) {
+		profile.style.animation = "fade 1.5s ease-out forwards";
+	} else {
+		profile.style.animation = "show 2s ease-out";
+	}
+});
+
 let sect2_ul = document.querySelector("ul");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
@@ -35,24 +79,32 @@ let sect4_img2 = document.querySelector(".section4 .img2");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
 	console.log("scroll", value);
-	if (value < 200) {
-		sect4_img2.style.animation = "imgslide 3s ease-out";
+	if (value < 650) {
+		sect4_img2.style.animation = "disapper2 1.2s ease-out forwards";
+	} else {
+		sect4_img2.style.animation = "imgslide 2.4s ease-out";
 	}
 });
+
 let sect4_img3 = document.querySelector(".section4 .img3");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
 	console.log("scroll", value);
-	if (value < 300) {
-		sect4_img3.style.animation = "imgslide 3.4s ease-out";
+	if (value < 650) {
+		sect4_img3.style.animation = "disapper2 1.4s ease-out forwards";
+	} else {
+		sect4_img3.style.animation = "imgslide 2.6s ease-out";
 	}
 });
+
 let sect4_img4 = document.querySelector(".section4 .img4");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
 	console.log("scroll", value);
-	if (value < 300) {
-		sect4_img4.style.animation = "imgslide 3.8s ease-out";
+	if (value < 650) {
+		sect4_img4.style.animation = "disapper2 1.6s ease-out forwards";
+	} else {
+		sect4_img4.style.animation = "imgslide 2.8s ease-out";
 	}
 });
 
