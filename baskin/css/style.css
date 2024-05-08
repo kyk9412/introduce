@@ -16,7 +16,8 @@
 	font-family: "FRADMCN";
 	src: url("../font/FRADMCN.ttf");
 }
-@font-face {
+
+FRADMCN @font-face {
 	font-family: "FRADMIT";
 	src: url("../font/FRADMIT.TTF");
 }
@@ -56,7 +57,9 @@ body {
 }
 
 h2 {
-	font: 75px "FRADMCN", sans-serif;
+	font: 70px "Pretend_B", sans-serif;
+	/* font: 75px "FRADMCN", sans-serif; */
+	letter-spacing: -2px;
 	color: #ff5484;
 	text-align: center;
 	margin-top: 110px;
@@ -65,7 +68,7 @@ h2 {
 	font: 20px "Pretend_M", sans-serif;
 	color: #787878;
 	text-align: center;
-	margin: 15px 0 90px 0;
+	margin: 10px 0 90px 0;
 }
 
 button {
@@ -76,12 +79,6 @@ button {
 }
 button:focus {
 	border: 0;
-}
-.sub_title {
-	font: 20px "Pretend_M", sans-serif;
-	color: #787878;
-	text-align: center;
-	margin: 15px 0 90px 0;
 }
 
 /* 모바일 헤더 pc일 때 숨김처리 */
