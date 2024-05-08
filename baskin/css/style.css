@@ -16,8 +16,7 @@
 	font-family: "FRADMCN";
 	src: url("../font/FRADMCN.ttf");
 }
-
-FRADMCN @font-face {
+@font-face {
 	font-family: "FRADMIT";
 	src: url("../font/FRADMIT.TTF");
 }
