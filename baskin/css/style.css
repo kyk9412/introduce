@@ -56,7 +56,7 @@ body {
 }
 
 h2 {
-	font-family: "FRADMCN";
+	font-family: "FRADMCN", sans-serif;
 	font-size: 75px;
 	letter-spacing: -1px;
 	color: #ff5484;
@@ -64,7 +64,8 @@ h2 {
 	margin-top: 110px;
 }
 .sub_title {
-	font: 20px "Pretend_M", sans-serif;
+	font-family: "Pretend_M", sans-serif;
+	font-size: 20px;
 	color: #787878;
 	text-align: center;
 	margin: 10px 0 90px 0;
@@ -150,7 +151,8 @@ header.pc-header .gnb .menu {
 }
 header.pc-header .gnb .menu .menu_list {
 	height: 100%;
-	font: 21px "FRADMCN", sans-serif;
+	font-family: "FRADMCN", sans-serif;
+	font-size: 21px;
 	color: #393939;
 	margin: 0 45px 0 0;
 	display: flex;
@@ -199,7 +201,8 @@ header.pc-header
 }
 
 header.pc-header .gnb .menu .menu_list .sub_menu .sub_menu_list li a {
-	font: 25px "Pretend_M", sans-serif;
+	font-family: "Pretend_M", sans-serif;
+	font-size: 25px;
 	color: #282828;
 }
 header.pc-header .gnb .menu .menu_list .sub_menu .sub_menu_list li a:hover {
@@ -227,7 +230,8 @@ header.pc-header .gnb .menu .menu_list .sub_menu .sub_menu_list .sub {
 	gap: 40px;
 }
 header.pc-header .gnb .menu .menu_list .sub_menu .sub_menu_list .sub li a {
-	font: 20px "Pretend_M", sans-serif;
+	font-family: "Pretend_M", sans-serif;
+	font-size: 20px;
 	color: #8e8e8e;
 }
 
@@ -346,7 +350,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	transform: translate(-50%, 0);
 }
 .main_slide .main_img01 .text_box .text li {
-	font: 35px "Gmarket_B", sans-serif;
+	font-family: "Gmarket_B", sans-serif;
+	font-size: 35px;
 	color: #ffffff;
 	letter-spacing: -2px;
 }
@@ -374,7 +379,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	animation: slide1 1s ease-out;
 }
 .main_slide .main_img02 .text_box .text li {
-	font: 33px "Gmarket_B", sans-serif;
+	font-family: "Gmarket_B", sans-serif;
+	font-size: 33px;
 	color: #8f2912;
 	text-align: center;
 	letter-spacing: -2px;
@@ -404,13 +410,17 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 
 .main_slide .main_img03 .text_box .text li:nth-of-type(1) {
-	font: 55px/1 "Gmarket_B", sans-serif;
+	font-family: "Gmarket_B", sans-serif;
+	font-size: 55px;
+	letter-spacing: 1px;
 	color: #ff5da3;
 	padding-bottom: 20px;
 }
 
 .main_slide .main_img03 .text_box .text li:nth-of-type(2) {
-	font: 30px/1 "Gmarket_M", sans-serif;
+	font-family: "Gmarket_M", sans-serif;
+	font-size: 30px;
+	letter-spacing: 1px;
 	color: #ff5da3;
 	text-align: center;
 	line-height: 40px;
@@ -714,24 +724,6 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	margin-right: 0;
 }
 
-/* @keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateY(50px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-.BR_Play .container .be-play_list .play_item .list_item1 {
-	animation: slide-up 0.35s 0.5s 1 backwards;
-}
-.BR_Play .container .be-play_list .play_item .list_item2 {
-	animation: slide-up 0.5s 0.75s 1 backwards;
-} */
-
 .Be_Better {
 }
 .Be_Better .container {
@@ -918,7 +910,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	position: absolute;
 	top: 0;
 	left: 100px;
-	font: 55px "FRADMCN", sans-serif;
+	font-family: "FRADMCN", sans-serif;
+	font-size: 55px;
 	color: #ff5484;
 	margin: 0;
 }
@@ -926,7 +919,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	position: absolute;
 	top: 10px;
 	left: 263px;
-	font: 20px "Pretend_M", sans-serif;
+	font-family: "Pretend_M", sans-serif;
+	font-size: 20px;
 	color: #787878;
 	line-height: 24px;
 }
@@ -948,7 +942,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	position: absolute;
 	top: 0;
 	left: 0;
-	font: 55px "FRADMCN", sans-serif;
+	font-family: "FRADMCN", sans-serif;
+	font-size: 55px;
 	color: #ff5484;
 	margin: 0;
 }
@@ -956,7 +951,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 	position: absolute;
 	top: 10px;
 	left: 215px;
-	font: 20px "Pretend_M", sans-serif;
+	font-family: "Pretend_M", sans-serif;
+	font-size: 20px;
 	color: #787878;
 	line-height: 24px;
 }
