@@ -7,257 +7,1247 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
-		<link rel="stylesheet" href="./font/GmarketSansLight.otf" />
-		<link rel="stylesheet" href="./font/GmarketSansMedium.otf" />
-		<link rel="stylesheet" href="./font/Pretendard-Medium.otf" />
-		<link rel="stylesheet" href="./font/TmonMonsori.otf" />
-		<link rel="stylesheet" href="./style.css" />
-		<!-- 로딩바 css -->
-		<link rel="stylesheet" href="./loding.css" />
-		<title>Introduce</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>베스킨라빈스</title>
+	</head>
+	<body>
+		<!-- PC 헤더 START -->
+		<header class="pc-header">
+			<div class="header_background"></div>
+			<div class="inner">
+				<nav class="gnb">
+					<div class="bar"></div>
+					<ul class="menu">
+						<li class="menu_list">
+							<a href="#">Menu</a>
+							<div class="sub_menu">
+								<ul class="sub_menu_list">
+									<li>
+										<a href="#">이달의 맛</a>
+									</li>
+									<li>
+										<a href="#">아이스크림</a>
+									</li>
+									<li>
+										<a href="#">블록팩/레디팩</a>
+									</li>
+									<li>
+										<a href="#">아이스크림 케이크</a>
+									</li>
+									<li>
+										<a href="#">디저트</a>
+									</li>
+									<li>
+										<a href="#">음료</a>
+									</li>
+									<li>
+										<a href="#">커피</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="menu_list">
+							<a href="#">BR Play</a>
+
+							<div class="sub_menu">
+								<ul class="sub_menu_list">
+									<li>
+										<a href="#">이벤트</a>
+										<ul class="sub">
+											<li>
+												<a href="#">프로모션</a>
+											</li>
+											<li>
+												<a href="#">제휴혜택</a>
+											</li>
+										</ul>
+									</li>
+									<div class="sub_menu_divider"></div>
+									<li>
+										<a href="#">BR Play</a>
+										<ul class="sub">
+											<li>
+												<a href="#">베라광장</a>
+											</li>
+											<li>
+												<a href="#">BR레시피</a>
+											</li>
+											<li>
+												<a href="#"
+													>마이플레이버리스트</a
+												>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="menu_list">
+							<a href="#">BR Story</a>
+							<div class="sub_menu">
+								<ul class="sub_menu_list">
+									<li>
+										<a href="#">브랜드 스토리</a>
+									</li>
+									<li>
+										<a href="#">이달의 맛 히스토리</a>
+									</li>
+									<li>
+										<a href="#">Be Better</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="menu_list">
+							<a href="#">Delivery/Store</a>
+							<div class="sub_menu">
+								<ul class="sub_menu_list">
+									<li>
+										<a href="#">Store</a>
+										<ul class="sub">
+											<li>
+												<a href="#">매장찾기</a>
+											</li>
+											<li>
+												<a href="#"
+													>100flavor플래그십스토어</a
+												>
+											</li>
+											<li>
+												<a href="#">Flow 매장</a>
+											</li>
+											<li>
+												<a href="#">점포개설문의</a>
+											</li>
+										</ul>
+									</li>
+									<div class="sub_menu_divider"></div>
+									<li>
+										<a href="#">Delivery</a>
+										<ul class="sub">
+											<li>
+												<a href="#">배달주문</a>
+											</li>
+											<li>
+												<a href="#">단체주문</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+				<h1 class="header_logo">
+					<a href="#"><img src="img/logo.png" alt="" /></a>
+				</h1>
+				<div class="side_menu">
+					<ul class="button">
+						<li class="search">
+							<a href="#"
+								><img
+									src="img/icon/search.png"
+									alt="search_button"
+							/></a>
+						</li>
+						<li class="user">
+							<a href="#"
+								><img src="img/icon/user.png" alt="user_button"
+							/></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- PC 헤더 END -->
+
+		<!-- 모바일 헤더 START -->
+		<header class="mb-header">
+			<div class="mb-header__container">
+				<div class="mb-header__content">
+					<!-- 햄버거 START -->
+					<button type="button" class="mb-header-menu-button">
+						<div class="mb-header-menu-button__container">
+							<span
+								class="mb-header-menu-button__content mb-header-menu-button__open"
+							>
+								<span class="mb-header-menu-button__bar"></span>
+								<span class="mb-header-menu-button__bar"></span>
+								<span class="mb-header-menu-button__bar"></span>
+							</span>
+
+							<span
+								class="mb-header-menu-button__content mb-header-menu-button__close"
+							>
+								<span class="mb-header-menu-button__bar"></span>
+								<span class="mb-header-menu-button__bar"></span>
+							</span>
+						</div>
+					</button>
+					<!-- 햄버거 END -->
+
+					<!-- 로고 START -->
+					<h1 class="mb-header-logo">
+						<a href="#" class="mb-header-logo__link"></a>
+					</h1>
+					<!-- 로고 END -->
+
+					<div class="mb-header__box">
+						<!-- 검색 버튼 START -->
+						<div class="mb-header__search">
+							<button
+								type="button"
+								class="mb-header__search-button"
+							></button>
+						</div>
+						<!-- 검색 버튼 END -->
+						<!-- 사용자 버튼 START -->
+						<div class="site-user-menu">
+							<a href="#" class="site-user-menu__button"> </a>
+						</div>
+						<!-- 사용자 버튼 END -->
+					</div>
+				</div>
+			</div>
+
+			<div class="site-menus">
+				<div class="site-menus__container">
+					<nav class="site-menu">
+						<ul class="site-menu__list">
+							<li class="site-menu__item">
+								<button type="button" class="site-menu__link">
+									Menu
+								</button>
+
+								<div class="site-menu-list">
+									<div class="site-menu-list__container">
+										<div class="site-menu-list__content">
+											<ul class="site-menu-list__list">
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>이달의 맛</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>아이스크림</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>블록팩/레디팩</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>아이스크림 케이크</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>디저트</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>음료</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>커피</a
+													>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="site-menu__item">
+								<button type="button" class="site-menu__link">
+									BR Play
+								</button>
+
+								<div class="site-menu-list">
+									<div class="site-menu-list__container">
+										<div class="site-menu-list__content">
+											<ul class="site-menu-list__list">
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>프로모션</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>제휴혜택</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>배라광장</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>BR레시피</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>마이플레이버리스트</a
+													>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="site-menu__item">
+								<button type="button" class="site-menu__link">
+									BR Story
+								</button>
+
+								<div class="site-menu-list">
+									<div class="site-menu-list__container">
+										<div class="site-menu-list__content">
+											<ul class="site-menu-list__list">
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>브랜드 스토리</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>이달의 맛 히스토리</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>Be Better</a
+													>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="site-menu__item">
+								<button type="button" class="site-menu__link">
+									Delivery/Store
+								</button>
+
+								<div class="site-menu-list">
+									<div class="site-menu-list__container">
+										<div class="site-menu-list__content">
+											<ul class="site-menu-list__list">
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>매장 찾기</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>100flavor
+														플래그십스토어</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>Flow 매장</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>배달주문</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>단체주문</a
+													>
+												</li>
+												<li
+													class="site-menu-list__item"
+												>
+													<a
+														href="#"
+														class="site-menu-list__link"
+														>점포개설문의</a
+													>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- 모바일 헤더 END -->
+
+		<section class="main">
+			<article class="main_slide">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="main_img01">
+							<img src="img/main/img01.jpg" alt="main_img01" />
+							<div class="text_box">
+								<ul class="text">
+									<li>WOULD U LIKE BON BON</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="main_img02">
+							<img src="img/main/img02.jpg" alt="main_img02" />
+							<div class="text_box">
+								<ul class="text">
+									<li>이상한 나라의 슈팅스타</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="swiper-slide">
+						<div class="main_img03">
+							<img src="img/main/img03.jpg" alt="main_img03" />
+							<div class="text_box">
+								<ul class="text">
+									<li>다크 초콜릿과</li>
+									<li>초콜릿 무스 아이스크림에</li>
+									<li>초콜릿 청크, 쿠키,</li>
+									<li>브라우니가 가득!</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section class="promotion">
+			<div class="container">
+				<h2>Promotion</h2>
+				<p class="sub_title">
+					베라의 다양한 혜택과 이벤트를 만나보세요
+				</p>
+
+				<div class="main_promotion">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img01.png"
+											alt=""
+									/></a>
+									<p class="date">상시 운영</p>
+									<p class="text">
+										워크샵 by 베스킨라빈스 그랜드 오픈
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img02.png"
+											alt=""
+									/></a>
+									<p class="date">2024-02-01 ~ 2024-02-26</p>
+									<p class="text">
+										2월 이달의 맛, 인스타그램에<br />
+										사진을 올려주세요!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#">
+										<img
+											src="img/promotion/img03.png"
+											alt=""
+										/>
+									</a>
+									<p class="date">2024-02-14 ~ 2024-02-25</p>
+									<p class="text">
+										발렌타인데이, 롤렛 이벤트 참여 시 <br />
+										최대 더블주니어 FREE!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#">
+										<img
+											src="img/promotion/img04.png"
+											alt=""
+										/>
+									</a>
+									<p class="date">
+										2024-02-13 ~ 소진 시 까지
+									</p>
+									<p class="text">
+										파인트 이상 구매 시, 크로우캐넌 머그<br />
+										커플세트 26,900원!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img05.png"
+											alt=""
+									/></a>
+									<p class="date">
+										2023-09-04 ~ 소진 시 까지
+									</p>
+									<p class="text">
+										아이스크림 스쿱퍼, 해피앱 스캔 시 <br />
+										3천원 OFF!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img06.png"
+											alt=""
+									/></a>
+									<p class="date">
+										2023-07-03 ~ 소진 시 까지
+									</p>
+									<p class="text">
+										모슈 텀블러 머그 MD 구매 시 베라 3종<br />
+										쿠폰 증정
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img07.png"
+											alt=""
+									/></a>
+									<p class="date">
+										2023-07-05 ~ 소진 시 까지
+									</p>
+									<p class="text">
+										아이스크림 보냉 컨테이너 매장판매 시작!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img08.png"
+											alt=""
+									/></a>
+									<p class="date">상시운영</p>
+									<p class="text">
+										SKT 우주패스, 베스킨라빈스 구독 시
+										<br />
+										7천원 OFF!
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="promotion_contents">
+								<div class="event">
+									<a href="#"
+										><img
+											src="img/promotion/img09.png"
+											alt=""
+									/></a>
+									<p class="date">상시운영</p>
+									<p class="text">
+										1회용 컵 사용 줄이기 안내
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+
+				<!--main_promotion End-->
+			</div>
+		</section>
+		<!--promotion End-->
+
+		<section class="New_Item">
+			<div class="container">
+				<h2>New Item</h2>
+				<p class="sub_title">새로 나온 베라의 신제품을 소개합니다</p>
+
+				<div class="BR_items">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="item">
+								<div class="new_box1">
+									<img src="img/new/img01.png" alt="" />
+									<div class="button wine_button"></div>
+									<p class="new_title">
+										이상한 나라의 슈팅스타
+									</p>
+								</div>
+
+								<div class="item_box">
+									<div class="new_box">
+										<div class="new_box2">
+											<img
+												src="img/new/img02.png"
+												alt=""
+											/>
+										</div>
+										<div class="button purple_button"></div>
+										<p class="new_title t2">
+											와츄원 쉐이크
+										</p>
+									</div>
+
+									<div class="new_box">
+										<div class="new_box3">
+											<img
+												src="img/new/img03.png"
+												alt=""
+											/>
+										</div>
+										<div class="button pink_button"></div>
+										<p class="new_title t3">
+											블루밍 플라워 인 러브
+										</p>
+									</div>
+
+									<div class="new_box">
+										<div class="new_box4">
+											<img
+												src="img/new/img04.png"
+												alt=""
+											/>
+										</div>
+										<div class="button rosado_button"></div>
+										<p class="new_title t4">
+											핑크 플라워 포 유
+										</p>
+									</div>
+
+									<div class="new_box">
+										<div class="new_box5">
+											<img
+												src="img/new/img05.png"
+												alt=""
+											/>
+										</div>
+										<div class="button green_button"></div>
+										<p class="new_title t5">
+											다이노소워 스윗 월드
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item">
+								<div class="new_box6">
+									<img src="img/new/img06.png" alt="" />
+									<p class="new_title">디노 젤리</p>
+								</div>
+								<div class="item_box">
+									<div class="new_box">
+										<div class="new_box7">
+											<img
+												src="img/new/img07.png"
+												alt=""
+											/>
+										</div>
+										<div class="button orange_button"></div>
+										<p class="new_title t7">
+											얼그레이 밀크티<br />
+											블라스트
+										</p>
+									</div>
+
+									<div class="new_box">
+										<div class="new_box8">
+											<img
+												src="img/new/img08.png"
+												alt=""
+											/>
+										</div>
+										<div class="button yellow_button"></div>
+										<p class="new_title t8">
+											자몽 블랙티 블라스트
+										</p>
+									</div>
+									<div class="new_box">
+										<div class="new_box9">
+											<img
+												src="img/new/img09.png"
+												alt=""
+											/>
+										</div>
+										<div class="button yellow_button"></div>
+										<p class="new_title t9">
+											애플망고 젤라또
+										</p>
+									</div>
+
+									<div class="new_box">
+										<div class="new_box10">
+											<img
+												src="img/new/img10.png"
+												alt=""
+											/>
+										</div>
+										<div class="button orange_button"></div>
+										<p class="new_title t10">
+											피스타치오 젤라또
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="BR_items_m">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap01">
+									<img
+										src="img/new/img01.png"
+										alt=""
+										style="
+											height: 241px;
+											width: fit-content;
+										"
+									/>
+								</div>
+
+								<div class="textwrap textwrap01">
+									<p class="new_title">
+										이상한 나라의 슈팅스타
+									</p>
+									<div class="button purple_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap02">
+									<img src="img/new/img02.png" alt="" />
+								</div>
+								<div class="textwrap textwrap02">
+									<p class="new_title">와츄원 쉐이크</p>
+									<div class="button purple_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap03">
+									<img src="img/new/img03.png" alt="" />
+								</div>
+								<div class="textwrap textwrap03">
+									<p class="new_title">
+										블루밍 플라워 인 러브
+									</p>
+									<div class="button pink_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap04">
+									<img src="img/new/img04.png" alt="" />
+								</div>
+								<div class="textwrap textwrap04">
+									<p class="new_title">핑크 플라워 포 유</p>
+									<div class="button rosado_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap05">
+									<img src="img/new/img05.png" alt="" />
+								</div>
+								<div class="textwrap textwrap05">
+									<p class="new_title">
+										다이노소워 스윗 월드
+									</p>
+									<div class="button lightgreen_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap06">
+									<img
+										src="img/new/img06.png"
+										alt=""
+										style="
+											height: 241px;
+											width: fit-content;
+										"
+									/>
+								</div>
+								<div class="textwrap textwrap06">
+									<p class="new_title">디노 젤리</p>
+									<div class="button green_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap07">
+									<img src="img/new/img07.png" alt="" />
+								</div>
+								<div class="textwrap textwrap07">
+									<p class="new_title">
+										얼그레이 밀크티 블라스트
+									</p>
+									<div class="button orange_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap08">
+									<img src="img/new/img08.png" alt="" />
+								</div>
+								<div class="textwrap textwrap08">
+									<p class="new_title">
+										자몽 블랙티 블라스트
+									</p>
+									<div class="button yellow_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap09">
+									<img src="img/new/img09.png" alt="" />
+								</div>
+								<div class="textwrap textwrap09">
+									<p class="new_title">애플망고 젤라또</p>
+									<div class="button yellow_button"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="item_box">
+								<div class="imgwrap imgwrap10">
+									<img src="img/new/img10.png" alt="" />
+								</div>
+								<div class="textwrap textwrap10">
+									<p class="new_title">피스타치오 젤라또</p>
+									<div class="button orange_button"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--New_Item End-->
+		<section class="BR_Play">
+			<div class="container">
+				<h2>BR Play</h2>
+				<p class="sub_title">
+					베라와 함께한 당신의 다양한 의견을 듣습니다
+				</p>
+
+				<div class="be-play_list">
+					<div class="play_item">
+						<div class="list_item1">
+							<a href="#"
+								><img src="img/brplay/img01.png" alt=""
+							/></a>
+						</div>
+						<div class="list_item2">
+							<a href="#"
+								><img src="img/brplay/img02.png" alt=""
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--BR_Play End-->
+
+		<section class="Be_Better">
+			<div class="container">
+				<h2>Be Better</h2>
+				<p class="sub_title">
+					베라가 사회와 함께 하는 방법, 가치 있는 같이
+				</p>
+				<div class="Be_Better_contents">
+					<div class="Be_Better_farm">
+						<a href="#"
+							><img src="img/beBetter/img01.png" alt=""
+						/></a>
+						<h3 class="title">핑크팜 캠페인</h3>
+						<p class="text">지역 농가 상생 프로젝트</p>
+						<div class="more">
+							<a href="#"><p>더보기</p></a>
+						</div>
+					</div>
+					<div class="Be_Better_dream">
+						<a href="#"
+							><img src="img/beBetter/img02.png" alt=""
+						/></a>
+						<h3 class="title">핑크드림 캠페인</h3>
+						<p class="text">청소년 자립 지원 프로젝트</p>
+						<div class="more">
+							<a href="#"><p>더보기</p></a>
+						</div>
+					</div>
+					<div class="Be_Better_link">
+						<a href="#"
+							><img src="img/beBetter/img03.png" alt=""
+						/></a>
+						<h3 class="title">핑크링크 캠페인</h3>
+						<p class="text">중소 기업 콜라보 프로젝트</p>
+						<div class="more">
+							<a href="#"><p>더보기</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Be_Better End-->
+
+		<section class="BR_Benefit">
+			<div class="container">
+				<h2>BR Benefit</h2>
+				<p class="sub_title">베라가 함께 다양한 혜택을 즐기세요</p>
+				<div class="BR_Benefit_contents">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="benefit_box">
+								<a href="#"
+									><img src="img/benefit/img01.png" alt=""
+								/></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="benefit_box">
+								<a href="#"
+									><img src="img/benefit/img02.png" alt=""
+								/></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="benefit_box">
+								<a href="#"
+									><img src="img/benefit/img03.png" alt=""
+								/></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="benefit_box">
+								<a href="#"
+									><img src="img/benefit/img04.png" alt=""
+								/></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="benefit_box">
+								<a href="#"
+									><img src="img/benefit/img05.png" alt=""
+								/></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="benefit_box">
+								<a href="#"
+									><img src="img/benefit/img06.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--BR Benefit End-->
+
+		<div class="BR_Benefit_box">
+			<div class="container">
+				<section class="contents_box">
+					<div class="Store_contents">
+						<h2 class="Store_title">Store</h2>
+						<p class="text">
+							내 주변에 가까운<br />
+							베스킨라빈스 매장을 찾아보세요
+						</p>
+						<a href="#"
+							><img src="img/benefit/image01.png" alt=""
+						/></a>
+					</div>
+					<div class="BR_Way_contents">
+						<h2 class="BR_Way_title">BR Way</h2>
+						<p class="text">
+							오랜 시간 우리 곁에 함께<br />
+							베스킨라빈스의 이야기
+						</p>
+						<a href="#"
+							><img src="img/benefit/image02.png" alt=""
+						/></a>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!--BR_Benefit_box End-->
+
+		<footer>
+			<div class="container">
+				<ul class="ft_menu">
+					<li><a href="#">신규 직영점 입점제의</a></li>
+					<li><a href="#">점포개설문의</a></li>
+					<li><a href="#">채용문의</a></li>
+					<li><a href="#">윤리신고센터</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">영상정보처리기기운영관리방침</a></li>
+					<li><a href="#">안전보건 경영방침</a></li>
+				</ul>
+
+				<div class="site_footer_info">
+					<div class="ft_info">
+						<div class="footer_logo">
+							<a href="#"
+								><img
+									src="img/footer/footer_logo.png"
+									alt="footerlogo"
+							/></a>
+						</div>
+
+						<div class="text_box">
+							<ul>
+								<li class="footer_info_text">
+									사업자 등록번호 : 303-81-09535
+								</li>
+								<li class="footer_info_text">
+									비알코리아(주) 대표이사 도세호
+								</li>
+								<li class="footer_info_text">
+									서울특별시 서초구 남부순환로 2620(양재동
+									11-149번지)
+								</li>
+								<li class="footer_info_text">
+									TEL : 080-555-3131
+								</li>
+								<li class="footer_info_text">
+									개인정보관리책임자 : 조성희/상무보
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="footer_side_menu">
+						<div class="ft_relation">
+							<ul class="relation_list">
+								<li class="list_item">
+									<a href="#"
+										><img
+											src="img/footer/h_market.png"
+											alt=""
+									/></a>
+									<a href="#"
+										><img
+											src="img/footer/h_point.png"
+											alt=""
+									/></a>
+									<a href="#"
+										><img src="img/footer/spc.png" alt=""
+									/></a>
+									<a href="#"
+										><img src="img/footer/ksa.png" alt=""
+									/></a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="site_footer_sns">
+							<div class="ft_sns">
+								<div class="sns_list">
+									<a href="#"
+										><img src="img/icon/insta.png" alt=""
+									/></a>
+									<a href="#"
+										><img src="img/icon/youtube.png" alt=""
+									/></a>
+									<a href="#"
+										><img
+											src="img/icon/facebook.png"
+											alt=""
+									/></a>
+									<a href="#"
+										><img
+											src="img/icon/magazine.png"
+											alt=""
+									/></a>
+								</div>
+							</div>
+
+							<div class="family_site">
+								<button type="button" class="family_site_btn">
+									FAMILY SITE
+								</button>
+								<ul class="family_site_list">
+									<li><a href="#">던킨도너츠</a></li>
+									<li><a href="#">파리바게트</a></li>
+									<li><a href="#">삼립</a></li>
+									<li><a href="#">파스쿠찌</a></li>
+									<li><a href="#">해피포인트카드</a></li>
+									<li><a href="#">SPC MAGAZINE</a></li>
+									<li><a href="#">SPC 그룹사이트</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--footer_info End-->
+			</div>
+
+			<!--container End-->
+		</footer>
+		<!--footer End-->
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script
 			src="https://kit.fontawesome.com/3931c22426.js"
 			crossorigin="anonymous"
 		></script>
-	</head>
-
-	<body>
-		<!--로딩 시작-->
-		<div id="hiddenElement" class="Parent-loading">
-			<div class="loding-animation-holder">
-				<div class="loading-animator"></div>
-				<div class="loading-animator"></div>
-				<div class="loading-animator"></div>
-				<div class="loading-animator"></div>
-				<div class="middle-circle"></div>
-			</div>
-			<div class="lod">
-				<h1>loading</h1>
-				<div class="loading_bar">
-					<div class="loading_bar_progress"></div>
-				</div>
-			</div>
-		</div>
-		<!--로딩 끝-->
-
-		<main id="main">
-			<section class="section1">
-				<div class="textbox">
-					<h1 class="title">WELCOME TO MY <br />PORTFOLIO</h1>
-					<h2>
-						안녕하세요. 저의 포트폴리오에 오신것을 환영합니다.<br />
-						제 노력의 작업물을 편하게 즐겨주세요. 감사합니다:)
-					</h2>
-				</div>
-			</section>
-
-			<section class="section2">
-				<div class="sect2_txt">
-					<div class="text_t1">LET'S INTRODUCE</div>
-					<div class="text_t2">Kim Yeo Kyeoung's</div>
-					<div class="text_t3">Works of Portfolio</div>
-				</div>
-				<div class="text_t4">"If you try, your dreams come true."</div>
-				<div class="profile_img1">
-					<img src="img/photo/profile.png" alt="" />
-				</div>
-
-				<ul>
-					<li class="text1">
-						안녕하세요 배우는 것을 좋아하고 끊임없이 도전하고
-						경험하며 <br />
-						성장하고자 하는 신입 퍼블리셔 김여경입니다. <br />
-						저는 어떤 일이라도 끊임없이 노력하면 반드시 좋은결과가
-						따라온다고 <br />생각하기에 열정과 도전정신을 깊숙히
-						새기고 있습니다. <br />또한 배움에 있어 열정과 긍정적인
-						자세를 갖고 겸손함을 유지하며<br />
-						세부적인 부분까지 꼼꼼하게 살펴보도록 최선을
-						다하겠습니다.
-					</li>
-				</ul>
-			</section>
-
-			<!-- //section2 -->
-
-			<section class="section3">
-				<div class="inner">
-					<div class="skill_box">
-						<h2>THESE SKILLS</h2>
-
-						<nav class="skill_cont">
-							<ul class="html">
-								<li>HTML & CSS</li>
-							</ul>
-							<ul class="javaScript">
-								<li>JAVASCRIPT</li>
-							</ul>
-							<ul class="jquery">
-								<li>JQUERY</li>
-							</ul>
-							<ul class="photoshop">
-								<li>PHOTOSHOP</li>
-							</ul>
-							<ul class="illustration">
-								<li>ILLUSTRATION</li>
-							</ul>
-						</nav>
-						<!--skill_cont End-->
-					</div>
-					<!--skill_box End-->
-				</div>
-			</section>
-			<!--section3 End-->
-
-			<section class="section4">
-				<div class="inner">
-					<div class="wrap">
-						<div class="img1">
-							<span>Earnest</span>
-							<a href="#"
-								><img src="img/photo/img01.png" alt="myphoto1"
-							/></a>
-						</div>
-						<div class="right">
-							<p>
-								저는 배우는 것을 좋아하고 새로운 도전에 대한
-								열정과 긍정적인 자세를 가지고 있습니다. 저는 더
-								나은 결과물이 나올 수 있도록 끊임없이 고민하고
-								어려운일이 있어도 맡은일에는 책임감 있게
-								포기하지 않고 끝까지 집중하여 해결책을
-								찾아내도록 노력하겠습니다. 아직 많이 부족하지만
-								지속적인 학습과 개인 발전을 통해 성장하여
-								사용자들에게 더 가치 있는 웹 경험을
-								제공하도록<br />최선을 다하겠습니다.
-							</p>
-						</div>
-					</div>
-					<div class="myphoto">
-						<div class="img2">
-							<span>Positive</span>
-							<a href="#"
-								><img src="img/photo/img02.png" alt="myphoto2"
-							/></a>
-						</div>
-						<div class="img3">
-							<span>Meticulous</span>
-							<a href="#"
-								><img src="img/photo/img03.png" alt="myphoto3"
-							/></a>
-						</div>
-						<div class="img4">
-							<span>Responsible</span>
-							<a href="#"
-								><img src="img/photo/img04.png" alt="myphoto4"
-							/></a>
-						</div>
-					</div>
-				</div>
-				<!--inner End-->
-			</section>
-			<!-- //section4 -->
-
-			<section class="section5">
-				<div class="inner">
-					<h2>ABOUT MY <br />WEB SITE PROJECT</h2>
-					<article class="project">
-						<div class="project1_text">
-							<h3 class="num">01</h3>
-							<h4>WEB SITE PROJECT</h4>
-							<p>
-								제가 좋아하는 커피를 주제로 하여 웹 사이트를
-								제작하였습니다. <br />그 중 이디아 브랜드를
-								선택하여 웹사이트의 문제점을 찾아 분석하여 기획,
-								디자인, 퍼블리싱까지 다시 새롭게
-								제작해보았습니다. 이미지 슬라이드, 텍스트 유형,
-								카드 유형, 탭 기능 등 제이쿼리를 이용하여 구현
-								하였으며, 반응형 작업까지 완료하였습니다.
-							</p>
-						</div>
-						<div class="pro_cont">
-							<figure>
-								<img src="img/project/ediya_pc.png" alt="" />
-							</figure>
-							<h4 class="view">
-								<a href="https://kyk9412.github.io/ediya/"
-									>VIEW SITE</a
-								>
-							</h4>
-						</div>
-					</article>
-				</div>
-			</section>
-			<!-- //section5-->
-
-			<section class="section6">
-				<article class="project">
-					<div class="project2_text">
-						<h3 class="num">02</h3>
-						<h4>WEB SITE PROJECT</h4>
-						<p>
-							화장품 브랜드중 착한 자연 유래 성분으로 유명한
-							아이소이를 선택하여 기획,디자인,퍼블리싱까지
-							개인작업으로 이루어진 웹사이트입니다. 아이소이
-							대표제품인 잡티개선 세럼을 메인페이지에 영상으로
-							소개하였고, 중복되는 불필요한 버튼을 최소화하여
-							깔끔함을 강조하여 제작해 보았습니다. Swiper를
-							이용하여 이미지 슬라이드를 구현했으며 미디어 쿼리를
-							활용하여 반응형 작업까지 완료하였습니다.
-						</p>
-					</div>
-					<div class="pro_cont">
-						<figure>
-							<img src="img/project/isoi_pc.png" alt="" />
-						</figure>
-						<h4 class="view">
-							<a href="https://kyk9412.github.io/isoi/"
-								>VIEW SITE</a
-							>
-						</h4>
-					</div>
-				</article>
-			</section>
-			<!-- //section6-->
-
-			<section class="section7">
-				<article class="project">
-					<div class="project3_text">
-						<h3 class="num">03</h3>
-						<h4>WEB SITE PROJECT</h4>
-						<p>
-							클론 코딩으로 만든 베스킨라빈스 홈페이지입니다.
-							Swiper를 이용하여 이미지 슬라이드 효과를 구현했으며,
-							JavaScript를 활용하여 이벤트 처리를 구현하였고,
-							애니메이션 기능을 구현하여 웹 페이지를 더 생동감
-							있게 제작해 보았습니다. 또한 미디어 쿼리를 활용하여
-							반응형 작업까지 완료하였습니다.
-						</p>
-					</div>
-					<div class="pro_cont">
-						<figure>
-							<img src="img/project/baskin_pc.png" alt="" />
-						</figure>
-						<h4 class="view">
-							<a
-								href="https://kyk9412.github.io/baskin/"
-								target="_blank"
-								>VIEW SITE</a
-							>
-						</h4>
-					</div>
-				</article>
-			</section>
-			<footer>
-				<div class="footer_inner">
-					<div class="text">
-						<p>Thank You For Reviewing My Portfolio</p>
-					</div>
-				</div>
-			</footer>
-		</main>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
-		<script src="./script.js"></script>
+		<script src="./js/footer.js"></script>
+		<script src="./js/header.js"></script>
+		<script src="./js/initialSwiper.js"></script>
 	</body>
 </html>
