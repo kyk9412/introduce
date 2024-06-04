@@ -48,15 +48,17 @@ body {
 #main {
 }
 #main .section1 {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
-	background: #000;
+	/* background: #000; */
+	background: url("./img/mainimg01.jpg") no-repeat;
+	background-attachment: fixed;
 }
 
 #main .section1 .textbox {
 	width: 100vw;
 	height: 100vh;
-	position: relative;
+	position: fixed;
 	display: flex;
 }
 #main .section1 .textbox .title {
@@ -77,7 +79,6 @@ body {
 #main .section2 {
 	width: 100vw;
 	height: 100vh;
-	background: #000;
 }
 .section2 {
 	width: 100vw;
@@ -86,6 +87,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+	background: #252424;
 }
 .section2 .sect2_txt {
 	width: 1700px;
@@ -98,21 +100,19 @@ body {
 	text-align: left;
 	animation: slide 1s ease-out;
 }
-.section2 .sect2_txt .text_t1,
-.section2 .sect2_txt .text_t2,
-.section2 .sect2_txt .text_t3 {
+.section2 .sect2_txt .text_t1 {
 	font-family: "Pretend_B";
 	font-size: 4vw;
 	line-height: 1.1;
 	text-transform: uppercase;
 }
 
-.section2 .sect2_txt .text_t3 {
+/* .section2 .sect2_txt .text_t3 {
 	position: relative;
-}
-.section2 .text_t4 {
+} */
+.section2 .text_t2 {
 	position: absolute;
-	top: 365px;
+	top: 225px;
 	left: 160px;
 	font-size: 1.7vw;
 	color: #ececec;
@@ -141,10 +141,10 @@ body {
 }
 
 .section2 .profile_img1 {
-	width: 450px;
+	width: 430px;
 	height: 450px;
 	position: absolute;
-	top: 290px;
+	top: 230px;
 	right: 150px;
 	animation: fade 1.5s ease-out;
 }
@@ -175,11 +175,12 @@ body {
 	line-height: 2;
 	color: #fff;
 	position: absolute;
-	top: 420px;
+	top: 280px;
 	left: 160px;
 	animation: slide2 1.3s ease-out;
 }
 .section2 ul li {
+	width: 800px;
 	text-align: left;
 }
 @keyframes slide2 {
@@ -202,326 +203,150 @@ body {
 		opacity: 0;
 	}
 }
-#main .section3 {
+
+.section3 {
 	width: 100vw;
-	height: 800px;
-	background: #000;
+	height: 100vw;
+	/* background: #000; */
 }
 .section3 .inner {
 	width: 100%;
-	height: 100%;
+	height: 1500px;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
 }
-
-.section3 .inner .skill_box {
-	width: 100%;
-	height: 100%;
-	justify-content: space-between;
-}
-.section3 .inner .skill_box h2 {
-	font: 2.7vw/1.3 "Gmarket_B", sans-serif;
-	letter-spacing: -1px;
-	padding-top: 100px;
-	padding-left: 160px;
-	text-transform: uppercase;
-	color: #e8e8e8;
-}
-.section3 .inner .skill_box .skill_cont {
-	width: 1400px;
-	padding-top: 85px;
-	margin: 0 auto;
-	align-items: center;
-	justify-content: center;
-	justify-content: space-between;
-	display: flex;
-}
-.section3 .inner .skill_box .skill_cont .html {
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-	border: 2px solid #b4b3b3;
-	animation: slide-up 1.7s 1.75s 1 linear;
-}
-
-@keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateY(-270px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-.section3 .inner .skill_box .skill_cont .html li {
-	width: 185px;
-	height: 185px;
-	border: 1px solid #b4b3b3;
-	border-radius: 50%;
-	margin: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Gmarket_L";
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	animation: rotate 2.2s 1.8s 1 linear;
-}
-
-@keyframes rotate {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
-
-.section3 .inner .skill_box .skill_cont .javaScript {
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-	border: 2px solid #b4b3b3;
-	animation: slide-up 1.9s 1.75s 1 linear;
-}
-
-.section3 .inner .skill_box .skill_cont .javaScript li {
-	width: 185px;
-	height: 185px;
-	border: 1px dotted #b4b3b3;
-	border-radius: 50%;
-	margin: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Gmarket_L";
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	/* line-height: 210px; */
-	border-width: thick;
-	animation: rotate 2.4s 1.8s 1 linear;
-}
-.section3 .inner .skill_box .skill_cont .jquery {
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-	border: 2px solid #b4b3b3;
-	animation: slide-up 2.1s 1.75s 1 linear;
-}
-.section3 .inner .skill_box .skill_cont .jquery li {
-	width: 185px;
-	height: 185px;
-	border: 1px solid #b4b3b3;
-	border-radius: 50%;
-	margin: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Gmarket_L";
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	line-height: 210px;
-	animation: rotate 2.6s 1.8s 1 linear;
-}
-.section3 .inner .skill_box .skill_cont .photoshop {
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-	border: 2px solid #b4b3b3;
-	animation: slide-up 2.3s 1.75s 1 linear;
-}
-.section3 .inner .skill_box .skill_cont .photoshop li {
-	width: 85px;
-	height: 85px;
-	border: 1px dashed #b4b3b3;
-	padding: 20px;
-	border-radius: 50%;
-	margin: 62px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Gmarket_L";
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	line-height: 210px;
-	animation: rotate 2.8s 1.8s 1 linear;
-}
-.section3 .inner .skill_box .skill_cont .illustration {
-	width: 210px;
-	height: 210px;
-	border-radius: 50%;
-	border: 2px solid #b4b3b3;
-	animation: slide-up 2.5s 1.75s 1 linear;
-}
-
-.section3 .inner .skill_box .skill_cont .illustration li {
-	width: 130px;
-	height: 130px;
-	border-style: dashed solid;
-	border-width: 2px;
-	border-color: #b4b3b3;
-	padding: 20px;
-	border-radius: 50%;
-	margin: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Gmarket_L";
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	line-height: 210px;
-	animation: rotate 3s 1.8s 1 linear;
-	z-index: 3;
-}
-.section4 {
-	width: 100vw;
-	height: 1000px;
-	background-color: #000;
-}
-.section4 .inner {
-	width: 100%;
-	height: 100%;
+.section3 .inner .wrap {
+	background: #252424;
 	position: relative;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
 }
-.section4 .inner .wrap {
-	justify-content: center;
-	align-items: center;
-	display: flex;
-}
-.section4 .inner .wrap .img1 {
+.section3 .inner .wrap .img1 {
 	width: 800px;
 	height: 550px;
-	margin-right: 40px;
-	margin-bottom: 40px;
-	position: relative;
-	top: 0;
-	left: 0;
+	/* margin-right: 40px;
+	margin-bottom: 40px; */
+	margin: 0 auto;
 }
-.section4 .inner .wrap .img1 span {
-	font-family: "Gmarket_M";
-	font-size: 1.2vw;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
-	color: #ffffff;
-}
-.section4 .inner .wrap .img1 span:hover {
-	transform: scale(1.1);
-	transition: 0.3s ease-out;
-	color: #ffffff;
-	text-shadow: 3px 3px 10px #fff;
-}
-.section4 .inner .wrap .img1 img {
-}
-.section4 .inner .wrap .right {
-	width: 400px;
-	position: relative;
-	top: 0;
-	left: 0;
-}
-.section4 .inner .wrap .right p {
+.section3 .inner .wrap .text {
 	font-family: "Gmarket_M";
 	font-size: 1vw;
-	line-height: 1.8;
-	text-align: left;
+	text-transform: uppercase;
+	color: #efebeb;
+	text-align: center;
 	position: absolute;
-	top: 20px;
-	left: 0;
+	bottom: 50px;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
-.section4 .inner .myphoto {
-	display: flex;
-	width: 1700px;
-	height: 100vh;
-	margin: 0 auto;
+.section3 .inner .wrap .text span {
+	text-align: center;
+	padding: 0 20px;
+}
+.section3 .inner .wrap .text span:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease-out;
+	text-shadow: 3px 3px 10px #e7e7e7;
+}
+.section3 .inner .question {
+	width: 100%;
+	height: 870px;
+	background: #252424;
+	align-items: center;
 	justify-content: center;
+	margin: 0 auto;
 	position: relative;
 }
-.section4 .inner .myphoto .img2 {
-	width: 380px;
-	height: 380px;
-	position: relative;
-	top: 0;
-	left: 0;
-	margin-right: 40px;
-	animation: imgslide 2.4s ease-out;
+.section3 .inner .question .text_box {
+	width: 1300px;
+	height: 650px;
+	margin: 0 auto;
+	padding-top: 130px;
+	background: #252424;
 }
-.section4 .inner .myphoto .img2 span {
-	font-family: "Gmarket_M";
-	font-size: 1.2vw;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
-	color: #e7e7e7;
+.section3 .inner .question .text_box .Q_box1 {
+	width: 1300px;
+	height: 161px;
+	background: #3f3f3f;
+	border-radius: 7px;
+	animation: slide-up 1s ease-out;
 }
-.section4 .inner .myphoto .img2 span:hover {
-	transform: scale(1.1);
-	transition: 0.3s ease-out;
-	color: #e7e7e7;
-	text-shadow: 3px 3px 10px #e7e7e7;
+.section3 .inner .question .text_box .Q_box1 .title {
+	font-family: "Pretend_M";
+	font-size: 23px;
+	color: #efebeb;
+	padding: 25px 0 27px 25px;
+	/* animation: slide-up 1s ease-out; */
 }
-.section4 .inner .myphoto .img2 img {
-}
-.section4 .inner .myphoto .img3 {
-	position: relative;
-	width: 380px;
-	height: 360px;
-	margin-right: 40px;
-	animation: imgslide 2.6s ease-out;
-}
-.section4 .inner .myphoto .img3 span {
-	font-family: "Gmarket_M";
-	font-size: 1.2vw;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
-	color: #e7e7e7;
-}
-.section4 .inner .myphoto .img3 span:hover {
-	transform: scale(1.1);
-	transition: 0.3s ease-out;
-	color: #e7e7e7;
-	text-shadow: 3px 3px 10px #e7e7e7;
-}
-.section4 .inner .myphoto .img3 img {
-}
-.section4 .inner .myphoto .img4 {
-	width: 380px;
-	height: 380px;
-	position: relative;
-	animation: imgslide 2.8s ease-out;
-}
-.section4 .inner .myphoto .img4 span {
-	font-family: "Gmarket_M";
-	font-size: 1.2vw;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
-	color: #e7e7e7;
-}
-.section4 .inner .myphoto .img4 span:hover {
-	transform: scale(1.1);
-	transition: 0.3s ease-out;
-	text-shadow: 3px 3px 10px #e7e7e7;
-}
-.section4 .inner .myphoto .img4 img {
+.section3 .inner .question .text_box .Q_box1 p {
+	font-family: "Pretend_R";
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 25px;
 }
 
-@keyframes imgslide {
+.section3 .inner .question .text_box .Q_box2 {
+	width: 1300px;
+	height: 161px;
+	background: #3f3f3f;
+	border-radius: 7px;
+	margin: 45px 0;
+}
+.section3 .inner .question .text_box .Q_box2 .title {
+	font-family: "Pretend_M";
+	font-size: 23px;
+	color: #efebeb;
+	padding: 25px 0 27px 25px;
+	/* animation: slide-up 0.5s 1.5s backwards; */
+}
+.section3 .inner .question .text_box .Q_box2 p {
+	font-family: "Pretend_R";
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 25px;
+}
+
+.section3 .inner .question .text_box .Q_box3 {
+	width: 1300px;
+	height: 193px;
+	background: #3f3f3f;
+	border-radius: 7px;
+}
+.section3 .inner .question .text_box .Q_box3 .title {
+	font-family: "Pretend_M";
+	font-size: 23px;
+	color: #efebeb;
+	padding: 25px 0 27px 25px;
+	/* animation: slide-up 0.5s 1.5s 1 backwards; */
+}
+.section3 .inner .question .text_box .Q_box3 p {
+	font-family: "Pretend_R";
+	font-size: 18px;
+	line-height: 30px;
+	padding-left: 25px;
+}
+.section3 .skill_box {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background: #252424;
+	position: relative;
+}
+.section3 .skill_box h2 {
+	width: 1300px;
+	margin: 0 auto;
+	font-family: "Pretend_B";
+	font-size: 1.9vw;
+}
+.section3 .skill_box .skill_cont {
+	width: 1300px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.section3 .skill_box .skill_cont img {
+	padding-right: 35px;
+}
+
+/* @keyframes imgslide {
 	from {
 		left: -300px;
 		opacity: 0;
@@ -530,63 +355,87 @@ body {
 		left: 0;
 		opacity: 1;
 	}
+} */
+
+@keyframes slide-up {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes slide-down {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+}
+.WebSite {
+	/* width: 100vw;
+	height: 100vh; */
 }
 
-.section5 {
+.WebSite .title {
 	width: 100vw;
-	height: 1400px;
-	background: #000;
-}
-
-.section5 .inner {
-	width: 100vw;
-	/* height: 100vh; */
+	height: 300px;
+	background: #252424;
 	position: relative;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
 }
-.section5 .inner h2 {
+.WebSite .title h2 {
+	position: absolute;
+	top: 100px;
+	left: 160px;
 	font-family: "Gmarket_M";
 	font-size: 4.5vw;
 	letter-spacing: 7;
 	text-transform: uppercase;
 	line-height: 1.3;
-	position: absolute;
-	top: 150px;
-	left: 160px;
 	opacity: 0;
 	transition: all 0.5s;
 	transform: rotate(-720deg);
+	z-index: 5;
 }
-
-.section5 .inner .project {
+.WebSite .section4 {
 	width: 100vw;
 	height: 100vh;
-	background: #000;
+}
+.WebSite .section4 .project {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background: #252424;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-}
-.section5 .inner .project .project1_text {
-	margin-top: 380px;
+	/* align-items: center;
+	margin: 0 auto; */
 }
 
-.section5 .inner .project .project1_text .num {
+.section4 .project .project1_text {
+	margin-top: 180px;
+	margin-right: 70px;
+}
+
+.section4 .project .project1_text .num {
 	font-family: "Gmarket_M";
 	font-size: 3.5vw;
 	letter-spacing: 3;
 	padding-bottom: 10px;
 }
 
-.section5 .inner .project .project1_text h4 {
+.section4 .project .project1_text h4 {
 	font-family: "Gmarket_M";
 	font-size: 2.3vw;
 	letter-spacing: 2;
 }
 
-.section5 .inner .project .project1_text h4:after {
+.section4 .project .project1_text h4:after {
 	content: "";
 	display: block;
 	width: 450px;
@@ -594,31 +443,97 @@ body {
 	background: #707070;
 	margin: 20px 0;
 }
-.section5 .inner .project .project1_text p {
+.section4 .project .project1_text p {
 	width: 450px;
 	display: flex;
 	font-size: 15px;
 	line-height: 1.7;
 }
-.section5 .inner .project .pro_cont {
-	margin-top: 750px;
-	margin-left: 50px;
+
+.section4 .project .pro_cont {
+	margin-top: 190px;
+	/* margin-left: 50px; */
 	display: flex;
 }
-.section5 .inner .project .pro_cont figure {
+.section4 .project .pro_cont figure {
 }
-.section5 .inner .project .pro_cont figure img {
+.section4 .project .pro_cont figure img {
 }
-.section5 .inner .project .pro_cont .view {
+.section4 .project .pro_cont .view {
 	margin-top: 465px;
 	margin-left: 20px;
 }
-.section5 .inner .project .pro_cont .view a {
+.section4 .project .pro_cont .view a {
 	font-family: "Pretend_M";
 	font-size: 13px;
 	color: #fff;
 	text-shadow: 3px 3px 10px #fff;
 }
+
+.WebSite .section5 {
+	width: 100vw;
+	height: 100vh;
+	/* position: relative; */
+}
+
+.section5 .project {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	background: #252424;
+}
+.section5 .project .project2_text {
+	margin-top: 180px;
+	margin-right: 70px;
+}
+.section5 .project .project2_text .num {
+	font-family: "Gmarket_M";
+	font-size: 3.5vw;
+	letter-spacing: 3;
+	padding-bottom: 10px;
+}
+.section5 .project .project2_text h4 {
+	font-family: "Gmarket_M";
+	font-size: 2.3vw;
+	letter-spacing: 2;
+}
+
+.section5 .project .project2_text h4:after {
+	content: "";
+	display: block;
+	width: 450px;
+	height: 1px;
+	background: #707070;
+	margin: 20px 0;
+}
+
+.section5 .project .project2_text p {
+	width: 450px;
+	display: flex;
+	font-size: 15px;
+	line-height: 1.7;
+}
+.section5 .project .pro_cont {
+	margin-top: 190px;
+	display: flex;
+}
+.section5 .project .pro_cont figure {
+}
+.section5 .project .pro_cont figure img {
+}
+.section5 .project .pro_cont .view {
+	margin-top: 465px;
+	margin-left: 20px;
+}
+.section5 .project .pro_cont .view a {
+	font-family: "Pretend_M";
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 3px 3px 10px #fff;
+}
+
 .section6 {
 	width: 100vw;
 	height: 100vh;
@@ -627,25 +542,27 @@ body {
 .section6 .project {
 	width: 100vw;
 	height: 100vh;
+	background: #252424;
 	position: relative;
 	justify-content: center;
 	display: flex;
 }
-.section6 .project .project2_text {
+.section6 .project .project3_text {
+	margin-top: 180px;
+	margin-right: 70px;
 }
-.section6 .project .project2_text .num {
+.section6 .project .project3_text .num {
 	font-family: "Gmarket_M";
 	font-size: 3.5vw;
 	letter-spacing: 3;
 	padding-bottom: 10px;
 }
-.section6 .project .project2_text h4 {
+.section6 .project .project3_text h4 {
 	font-family: "Gmarket_M";
 	font-size: 2.3vw;
 	letter-spacing: 2;
 }
-
-.section6 .project .project2_text h4:after {
+.section6 .project .project3_text h4:after {
 	content: "";
 	display: block;
 	width: 450px;
@@ -653,15 +570,14 @@ body {
 	background: #707070;
 	margin: 20px 0;
 }
-
-.section6 .project .project2_text p {
+.section6 .project .project3_text p {
 	width: 450px;
 	display: flex;
 	font-size: 15px;
-	line-height: 1.7;
+	line-height: 1.6;
 }
 .section6 .project .pro_cont {
-	margin-left: 50px;
+	margin-top: 190px;
 	display: flex;
 }
 .section6 .project .pro_cont figure {
@@ -678,70 +594,12 @@ body {
 	color: #fff;
 	text-shadow: 3px 3px 10px #fff;
 }
-
-.section7 {
-	width: 100vw;
-	height: 100vh;
-	background: #000;
-}
-.section7 .project {
-	width: 100vw;
-	height: 100vh;
-	position: relative;
-	justify-content: center;
-	display: flex;
-}
-.section7 .project .project3_text {
-}
-.section7 .project .project3_text .num {
-	font-family: "Gmarket_M";
-	font-size: 3.5vw;
-	letter-spacing: 3;
-	padding-bottom: 10px;
-}
-.section7 .project .project3_text h4 {
-	font-family: "Gmarket_M";
-	font-size: 2.3vw;
-	letter-spacing: 2;
-}
-.section7 .project .project3_text h4:after {
-	content: "";
-	display: block;
-	width: 450px;
-	height: 1px;
-	background: #707070;
-	margin: 20px 0;
-}
-.section7 .project .project3_text p {
-	width: 450px;
-	display: flex;
-	font-size: 15px;
-	line-height: 1.6;
-}
-.section7 .project .pro_cont {
-	margin-left: 50px;
-	display: flex;
-}
-.section7 .project .pro_cont figure {
-}
-.section7 .project .pro_cont figure img {
-}
-.section7 .project .pro_cont .view {
-	margin-top: 465px;
-	margin-left: 20px;
-}
-.section7 .project .pro_cont .view a {
-	font-family: "Pretend_M";
-	font-size: 13px;
-	color: #fff;
-	text-shadow: 3px 3px 10px #fff;
-}
 footer {
 }
 footer .footer_inner {
 	width: 100vw;
 	height: 100vh;
-	background: #070707;
+	background: url("./img/mainimg01.jpg") no-repeat;
 	position: relative;
 }
 footer .footer_inner .text {
