@@ -50,7 +50,6 @@ body {
 #main .section1 {
 	width: 100vw;
 	height: 100vh;
-	/* background: #000; */
 	background: url("./img/mainimg01.jpg") no-repeat;
 	background-attachment: fixed;
 }
@@ -98,7 +97,7 @@ body {
 	font-family: "Pretend_B";
 	font-size: 2vw;
 	text-align: left;
-	animation: slide 1s ease-out;
+	animation: slide 1s linear;
 }
 .section2 .sect2_txt .text_t1 {
 	font-family: "Pretend_B";
@@ -107,16 +106,13 @@ body {
 	text-transform: uppercase;
 }
 
-/* .section2 .sect2_txt .text_t3 {
-	position: relative;
-} */
 .section2 .text_t2 {
 	position: absolute;
 	top: 225px;
 	left: 160px;
 	font-size: 1.7vw;
 	color: #ececec;
-	animation: slide 1.2s ease-out;
+	animation: slide 1.2s linear;
 }
 @keyframes slide {
 	from {
@@ -148,8 +144,6 @@ body {
 	right: 150px;
 	animation: fade 1.5s ease-out;
 }
-.section2 .profile_img1 img {
-}
 
 @keyframes show {
 	from {
@@ -177,7 +171,7 @@ body {
 	position: absolute;
 	top: 280px;
 	left: 160px;
-	animation: slide2 1.3s ease-out;
+	animation: slide2 1.4s linear;
 }
 .section2 ul li {
 	width: 800px;
@@ -207,7 +201,6 @@ body {
 .section3 {
 	width: 100vw;
 	height: 100vw;
-	/* background: #000; */
 }
 .section3 .inner {
 	width: 100%;
@@ -223,10 +216,9 @@ body {
 .section3 .inner .wrap .img1 {
 	width: 800px;
 	height: 550px;
-	/* margin-right: 40px;
-	margin-bottom: 40px; */
 	margin: 0 auto;
 }
+
 .section3 .inner .wrap .text {
 	font-family: "Gmarket_M";
 	font-size: 1vw;
@@ -266,16 +258,14 @@ body {
 .section3 .inner .question .text_box .Q_box1 {
 	width: 1300px;
 	height: 161px;
-	background: #3f3f3f;
+	background: #353535;
 	border-radius: 7px;
-	animation: slide-up 1s ease-out;
 }
 .section3 .inner .question .text_box .Q_box1 .title {
 	font-family: "Pretend_M";
 	font-size: 23px;
 	color: #efebeb;
 	padding: 25px 0 27px 25px;
-	/* animation: slide-up 1s ease-out; */
 }
 .section3 .inner .question .text_box .Q_box1 p {
 	font-family: "Pretend_R";
@@ -287,7 +277,7 @@ body {
 .section3 .inner .question .text_box .Q_box2 {
 	width: 1300px;
 	height: 161px;
-	background: #3f3f3f;
+	background: #353535;
 	border-radius: 7px;
 	margin: 45px 0;
 }
@@ -296,7 +286,6 @@ body {
 	font-size: 23px;
 	color: #efebeb;
 	padding: 25px 0 27px 25px;
-	/* animation: slide-up 0.5s 1.5s backwards; */
 }
 .section3 .inner .question .text_box .Q_box2 p {
 	font-family: "Pretend_R";
@@ -308,7 +297,7 @@ body {
 .section3 .inner .question .text_box .Q_box3 {
 	width: 1300px;
 	height: 193px;
-	background: #3f3f3f;
+	background: #353535;
 	border-radius: 7px;
 }
 .section3 .inner .question .text_box .Q_box3 .title {
@@ -316,7 +305,6 @@ body {
 	font-size: 23px;
 	color: #efebeb;
 	padding: 25px 0 27px 25px;
-	/* animation: slide-up 0.5s 1.5s 1 backwards; */
 }
 .section3 .inner .question .text_box .Q_box3 p {
 	font-family: "Pretend_R";
@@ -343,43 +331,10 @@ body {
 	padding-top: 50px;
 }
 .section3 .skill_box .skill_cont img {
-	padding-right: 35px;
+	padding-right: 20px;
 }
 
-/* @keyframes imgslide {
-	from {
-		left: -300px;
-		opacity: 0;
-	}
-	to {
-		left: 0;
-		opacity: 1;
-	}
-} */
-
-@keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateY(50px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-@keyframes slide-down {
-	from {
-		opacity: 1;
-		transform: translateY(0);
-	}
-	to {
-		opacity: 0;
-		transform: translateY(50px);
-	}
-}
 .WebSite {
-	/* width: 100vw;
-	height: 100vh; */
 }
 
 .WebSite .title {
@@ -413,8 +368,6 @@ body {
 	background: #252424;
 	display: flex;
 	justify-content: center;
-	/* align-items: center;
-	margin: 0 auto; */
 }
 
 .section4 .project .project1_text {
@@ -452,7 +405,6 @@ body {
 
 .section4 .project .pro_cont {
 	margin-top: 190px;
-	/* margin-left: 50px; */
 	display: flex;
 }
 .section4 .project .pro_cont figure {
@@ -473,7 +425,6 @@ body {
 .WebSite .section5 {
 	width: 100vw;
 	height: 100vh;
-	/* position: relative; */
 }
 
 .section5 .project {
