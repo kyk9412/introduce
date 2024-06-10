@@ -41,7 +41,7 @@ window.addEventListener("scroll", function () {
 	}
 });
 
-let sect2_text4 = document.querySelector(".text_t4");
+let sect2_text4 = document.querySelector(".text_t2");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
 	console.log("scroll", value);
@@ -57,7 +57,7 @@ let profile = document.querySelector(".profile_img1");
 window.addEventListener("scroll", function () {
 	let value = window.scrollY;
 	console.log("scroll", value);
-	if (value < 650) {
+	if (value < 600) {
 		profile.style.animation = "fade 1.5s ease-out forwards";
 	} else {
 		profile.style.animation = "show 2s ease-out";
@@ -75,52 +75,19 @@ window.addEventListener("scroll", function () {
 	}
 });
 
-let sect4_img2 = document.querySelector(".section4 .img2");
-window.addEventListener("scroll", function () {
-	let value = window.scrollY;
-	console.log("scroll", value);
-	if (value < 650) {
-		sect4_img2.style.animation = "disapper2 1.2s ease-out forwards";
-	} else {
-		sect4_img2.style.animation = "imgslide 2.4s ease-out";
-	}
-});
-
-let sect4_img3 = document.querySelector(".section4 .img3");
-window.addEventListener("scroll", function () {
-	let value = window.scrollY;
-	console.log("scroll", value);
-	if (value < 650) {
-		sect4_img3.style.animation = "disapper2 1.4s ease-out forwards";
-	} else {
-		sect4_img3.style.animation = "imgslide 2.6s ease-out";
-	}
-});
-
-let sect4_img4 = document.querySelector(".section4 .img4");
-window.addEventListener("scroll", function () {
-	let value = window.scrollY;
-	console.log("scroll", value);
-	if (value < 650) {
-		sect4_img4.style.animation = "disapper2 1.6s ease-out forwards";
-	} else {
-		sect4_img4.style.animation = "imgslide 2.8s ease-out";
-	}
-});
-
 let observer = new IntersectionObserver((e) => {
-	e.forEach((sect5_tit) => {
-		if (sect5_tit.isIntersecting) {
-			sect5_tit.target.style.opacity = 1;
-			sect5_tit.target.style.transform = "rotate(0deg)";
+	e.forEach((sect4_tit) => {
+		if (sect4_tit.isIntersecting) {
+			sect4_tit.target.style.opacity = 1;
+			sect4_tit.target.style.transform = "rotate(0deg)";
 		} else {
 			sect5_tit.target.style.opacity = 0;
 		}
 	});
 });
 
-let sect5_tit = document.querySelector(".section5 h2");
-observer.observe(sect5_tit);
+let sect4_tit = document.querySelector(".WebSite h2");
+observer.observe(sect4_tit);
 
 const hide = (item) => {
 	gsap.set(item, { autoAlpha: 0 });
