@@ -550,7 +550,7 @@ footer {
 footer .footer_inner {
 	width: 100vw;
 	height: 100vh;
-	background: url("./img/mainimg01.jpg") no-repeat;
+	background: url("img/mainimg01.jpg") no-repeat;
 	position: relative;
 }
 footer .footer_inner .text {
