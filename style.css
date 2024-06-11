@@ -50,7 +50,7 @@ body {
 #main .section1 {
 	width: 100vw;
 	height: 100vh;
-	background: url("./img/mainimg01.jpg") no-repeat;
+	background: url("img/mainimg01.jpg") no-repeat;
 	background-attachment: fixed;
 }
 
