@@ -2665,14 +2665,11 @@ footer .info .bt .sns a {
 	}
 
 	header .side_menu {
-		position: absolute;
-		right: 25px;
-		top: 50%;
-		transform: translate(0, -50%);
+		position: relative;
 		display: flex;
 	}
 	header .side_menu li {
-		position: fixed;
+		position: absolute;
 		right: 0;
 		top: 50%;
 		transform: translate(0, -50%);
@@ -2683,6 +2680,9 @@ footer .info .bt .sns a {
 		height: 16px;
 		font-size: 0;
 		margin: 0;
+		position: fixed;
+		top: 50%;
+		transform: translate(0, -50%);
 	}
 
 	header .side_menu li:first-child {
