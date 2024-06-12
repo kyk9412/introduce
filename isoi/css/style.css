@@ -628,7 +628,7 @@ header .inner .gnb li {
 	width: 251%;
 	line-height: 281px;
 	position: absolute;
-	font-size: 74px;
+	font-size: 60px;
 	text-align: center;
 	color: #fff;
 	text-shadow: 5px 5px 10px rgba(87, 87, 87, 0.25);
@@ -1292,6 +1292,7 @@ footer .info .bt .sns a {
 		height: 720px;
 		background: #fff5f5;
 		margin-bottom: 150px;
+		margin: 0 auto;
 	}
 
 	.event h2 {
