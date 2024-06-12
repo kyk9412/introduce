@@ -1302,6 +1302,7 @@ footer .info .bt .sns a {
 
 	.event .contents {
 		display: flex;
+		margin: 0 auto;
 	}
 
 	.event .contents .inner {
@@ -1309,14 +1310,13 @@ footer .info .bt .sns a {
 		height: 100%;
 		display: flex;
 		/* justify-content: space-between; */
-		margin: 0 auto;
 	}
 
 	.event .contents .inner article {
 		width: 354px;
 		height: 100%;
 		display: flex;
-		/* justify-content: space-between; */
+		justify-content: space-between;
 	}
 
 	.event .contents .inner article div img {
