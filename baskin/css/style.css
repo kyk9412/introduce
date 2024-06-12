@@ -345,7 +345,7 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .main_slide .main_img01 .text_box .text {
 	position: absolute;
-	top: 195px;
+	top: 210px;
 	left: 50%;
 	animation: slide 1s ease-out;
 	transform: translate(-50%, -50%);
@@ -375,7 +375,7 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .main_slide .main_img02 .text_box .text {
 	position: absolute;
-	top: 410px;
+	top: 440px;
 	left: 390px;
 	animation: slide1 1s ease-out;
 	transform: translate(-50%, 0);
@@ -407,7 +407,7 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .main_slide .main_img03 .text_box .text {
 	position: absolute;
-	top: 390px;
+	top: 410px;
 	left: 180px;
 	animation: slide2 1s ease-out;
 }
