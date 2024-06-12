@@ -2600,14 +2600,6 @@ footer .info .bt .sns a {
 		font-size: 0;
 	}
 
-	/* header .inner h1 {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 0;
-	} */
-
 	header .inner h1 img {
 		width: 114px;
 		font-size: 0;
@@ -2672,20 +2664,18 @@ footer .info .bt .sns a {
 		margin-bottom: 9px;
 	}
 
-	/* header .side_menu {
-		position: absolute;
-		right: 25px;
-		top: 50%;
-		transform: translate(0, -50%);
-		display: flex;
-	} */
 	header .side_menu {
-		/*margin-bottom: 47px; */
 		position: absolute;
 		right: 25px;
 		top: 50%;
 		transform: translate(0, -50%);
 		display: flex;
+	}
+	header .side_menu li {
+		position: fixed;
+		right: 0;
+		top: 50%;
+		transform: translate(0, -50%);
 	}
 
 	header .side_menu li img {
@@ -2695,8 +2685,8 @@ footer .info .bt .sns a {
 		margin: 0;
 	}
 
-	header .side_menu li:last-child {
-		margin-left: 20px;
+	header .side_menu li:first-child {
+		margin-right: 30px;
 	}
 
 	.main {
