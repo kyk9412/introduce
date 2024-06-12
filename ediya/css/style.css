@@ -2596,10 +2596,7 @@ footer .info .bt .sns a {
 	}
 
 	header .inner h1 {
-		position: fixed;
-		left: 50%;
-		top: 32px;
-		transform: translate(-50%, 0);
+		position: relative;
 		font-size: 0;
 	}
 
@@ -2614,6 +2611,10 @@ footer .info .bt .sns a {
 	header .inner h1 img {
 		width: 114px;
 		font-size: 0;
+		position: fixed;
+		left: 50%;
+		top: 35px;
+		transform: translate(-50%, 0);
 	}
 
 	header .gnb {
