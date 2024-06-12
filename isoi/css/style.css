@@ -1301,26 +1301,23 @@ footer .info .bt .sns a {
 	}
 
 	.event .contents {
+		width: 100%;
 		display: flex;
 		margin: 0 auto;
 	}
 
 	.event .contents .inner {
 		width: 736px;
-		height: 100%;
-		display: flex;
-		/* justify-content: space-between; */
-	}
-
-	.event .contents .inner article {
-		width: 354px;
-		height: 100%;
-		display: flex;
 		justify-content: space-between;
 	}
 
+	.event .contents .inner article {
+		width: 352px;
+		height: 100%;
+	}
+
 	.event .contents .inner article div img {
-		width: 354px;
+		width: 352px;
 		height: 358px;
 	}
 
