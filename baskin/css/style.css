@@ -17,10 +17,6 @@
 	src: url("../font/FRADMCN.ttf");
 }
 @font-face {
-	font-family: "FRADMIT";
-	src: url("../font/FRADMIT.TTF");
-}
-@font-face {
 	font-family: "Pretend_R";
 	src: url("../font/Pretendard-Regular.otf");
 }
@@ -151,8 +147,8 @@ header.pc-header .gnb .menu {
 }
 header.pc-header .gnb .menu .menu_list {
 	height: 100%;
-	font-family: "FRADMCN", sans-serif;
-	font-size: 21px;
+	font-family: "Pretend_B", sans-serif;
+	font-size: 19px;
 	color: #393939;
 	margin: 0 45px 0 0;
 	display: flex;
@@ -163,11 +159,12 @@ header.pc-header .gnb .menu .menu_list a {
 	transition: 0.3s color;
 }
 header.pc-header:hover .gnb .menu .menu_list > a {
-	font-family: "Pretend_M", sans-serif;
+	font-family: "Pretend_B", sans-serif;
+	font-size: 19px;
 	color: #fff;
 }
 header.pc-header:hover .gnb .menu .menu_list > a:hover {
-	font-family: "Pretend_M", sans-serif;
+	font-family: "Pretend_B", sans-serif;
 	color: #000;
 }
 header.pc-header .gnb .menu .menu_list .sub_menu {
