@@ -345,7 +345,7 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .main_slide .main_img01 .text_box .text {
 	position: absolute;
-	top: 225px;
+	top: 220px;
 	left: 50%;
 	animation: slide 1s ease-out;
 	transform: translate(-50%, -50%);
@@ -375,8 +375,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .main_slide .main_img02 .text_box .text {
 	position: absolute;
-	top: 455px;
-	left: 410px;
+	top: 450px;
+	left: 420px;
 	animation: slide1 1s ease-out;
 	transform: translate(-50%, 0);
 }
@@ -391,11 +391,11 @@ header.pc-header.active .inner .side_menu .button .search::before {
 
 @keyframes slide1 {
 	from {
-		left: -410px;
+		left: -420px;
 		opacity: 0;
 	}
 	to {
-		left: 410px;
+		left: 420px;
 		opacity: 1;
 	}
 }
@@ -407,8 +407,8 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .main_slide .main_img03 .text_box .text {
 	position: absolute;
-	top: 440px;
-	left: 200px;
+	top: 425px;
+	left: 210px;
 	animation: slide2 1s ease-out;
 }
 
@@ -423,11 +423,11 @@ header.pc-header.active .inner .side_menu .button .search::before {
 
 @keyframes slide2 {
 	from {
-		left: -200px;
+		left: -210px;
 		opacity: 0;
 	}
 	to {
-		left: 200px;
+		left: 210px;
 		opacity: 1;
 	}
 }
