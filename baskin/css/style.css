@@ -2714,15 +2714,15 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 	.BR_Benefit_box .container .contents_box .Store_contents .text {
 		text-align: center;
 		font-family: "Pretend_M", sans-serif;
-		font-size: 11px;
+		font-size: 10px;
 		color: #787878;
-		line-height: 16px;
+		line-height: 14px;
 	}
 
 	.BR_Benefit_box .container .contents_box .BR_Way_contents {
 		width: 100%;
 		position: relative;
-		margin: 0 auto;
+		margin: 0 auto 50px;
 	}
 	.BR_Benefit_box .container .contents_box .BR_Way_contents img {
 		display: none;
@@ -2732,7 +2732,7 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		height: 100%;
 		background: url("../img/benefit/image02-m.png") no-repeat center;
 		position: absolute;
-		top: 0;
+		top: 30px;
 		left: 50%;
 		transform: translate(-50%, 0);
 	}
@@ -2745,8 +2745,8 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 	.BR_Benefit_box .container .contents_box .BR_Way_contents .text {
 		text-align: center;
 		font-family: "Pretend_M", sans-serif;
-		font-size: 11px;
+		font-size: 10px;
 		color: #787878;
-		line-height: 16px;
+		line-height: 14px;
 	}
 }
