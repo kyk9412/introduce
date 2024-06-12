@@ -2112,14 +2112,14 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 
 	.BR_Benefit_box .container .contents_box .Store_contents .text {
 		position: absolute;
-		top: 30px;
+		top: 40px;
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%, 0);
 		font-family: "Pretend_M", sans-serif;
-		font-size: 11px;
+		font-size: 10px;
 		color: #787878;
-		line-height: 16px;
+		line-height: 14px;
 	}
 
 	.BR_Benefit_box .container .contents_box .BR_Way_contents {
@@ -2153,14 +2153,14 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 
 	.BR_Benefit_box .container .contents_box .BR_Way_contents .text {
 		position: absolute;
-		top: 30px;
+		top: 40px;
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%, 0);
 		font-family: "Pretend_M", sans-serif;
-		font-size: 11px;
+		font-size: 10px;
 		color: #787878;
-		line-height: 16px;
+		line-height: 14px;
 	}
 
 	footer {
