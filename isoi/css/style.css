@@ -1309,6 +1309,7 @@ footer .info .bt .sns a {
 		height: 100%;
 		display: flex;
 		justify-content: space-between;
+		margin: 0 auto;
 	}
 
 	.event .contents .inner article {
