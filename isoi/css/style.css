@@ -1308,7 +1308,7 @@ footer .info .bt .sns a {
 		width: 736px;
 		height: 100%;
 		display: flex;
-		justify-content: space-between;
+		/* justify-content: space-between; */
 		margin: 0 auto;
 	}
 
@@ -1316,7 +1316,7 @@ footer .info .bt .sns a {
 		width: 354px;
 		height: 100%;
 		display: flex;
-		justify-content: space-between;
+		/* justify-content: space-between; */
 	}
 
 	.event .contents .inner article div img {
