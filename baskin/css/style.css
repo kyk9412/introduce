@@ -1107,11 +1107,14 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 
 @media screen and (max-width: 480px) {
 	h2 {
-		font: 34px "FRADMCN", sans-serif;
+		font-family: "FRADMCN", sans-serif;
+		font-size: 34px;
+		letter-spacing: -1px;
 		color: #ff5484;
 		text-align: center;
 		margin-top: 60px;
 	}
+
 	.sub_title {
 		font: 11px "Pretend_M", sans-serif;
 		color: #787878;
@@ -1826,8 +1829,12 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		height: 385px;
 		background: url("../img/brplay/bg_play.jpg") repeat-x;
 	}
+
 	.BR_Play .container h2 {
+		font-family: "FRADMCN", sans-serif;
+		font-size: 34px;
 		color: #37110e;
+		text-align: center;
 		padding-top: 55px;
 	}
 	.BR_Play .container .sub_title {
@@ -1906,6 +1913,7 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		text-align: center;
 		line-height: 11px;
 	}
+
 	.Be_Better .container .Be_Better_contents .more p:hover {
 		color: #fff;
 		cursor: pointer;
@@ -2097,16 +2105,19 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		left: 50%;
 		transform: translate(-50%, 0);
 		text-align: center;
-		font: 24px "FRADMCN", sans-serif;
+		font-family: "FRADMCN", sans-serif;
+		font-size: 24px;
 		color: #ff5484;
 	}
+
 	.BR_Benefit_box .container .contents_box .Store_contents .text {
 		position: absolute;
 		top: 30px;
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%, 0);
-		font: 11px "Pretend_M", sans-serif;
+		font-family: "Pretend_M", sans-serif;
+		font-size: 11px;
 		color: #787878;
 		line-height: 16px;
 	}
@@ -2135,16 +2146,19 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		left: 50%;
 		transform: translate(-50%, 0);
 		text-align: center;
-		font: 24px "FRADMCN", sans-serif;
+		font-family: "FRADMCN", sans-serif;
+		font-size: 24px;
 		color: #ff5484;
 	}
+
 	.BR_Benefit_box .container .contents_box .BR_Way_contents .text {
 		position: absolute;
 		top: 30px;
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%, 0);
-		font: 11px "Pretend_M", sans-serif;
+		font-family: "Pretend_M", sans-serif;
+		font-size: 11px;
 		color: #787878;
 		line-height: 16px;
 	}
@@ -2168,7 +2182,8 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		border-bottom: 1px solid #5a5a5a;
 	}
 	footer .container .ft_menu li {
-		font: 10px "Pretend_R", sans-serif;
+		font-family: "Pretend_R", sans-serif;
+		font-size: 10px;
 		text-align: left;
 		color: #e7e6e6;
 		padding-right: 13px;
@@ -2227,7 +2242,8 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 	}
 
 	footer .container .site_footer_info .footer_info_text {
-		font: 14px "Pretend_R", sans-serif;
+		font-family: "Pretend_R", sans-serif;
+		font-size: 14px;
 		color: #656565;
 		line-height: 10px;
 	}
@@ -2331,7 +2347,8 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 	}
 
 	footer .container .site_footer_info .family_site_list li {
-		font: 8px "Pretend_R", sans-serif;
+		font-family: "Pretend_R", sans-serif;
+		font-size: 8px;
 		line-height: 20px;
 		padding-left: 8px;
 	}
@@ -2357,13 +2374,18 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 
 @media screen and (max-width: 360px) {
 	h2 {
-		font: 34px "FRADMCN", sans-serif;
+		font-family: "FRADMCN", sans-serif;
+		font-size: 34px;
+		letter-spacing: -1px;
 		color: #ff5484;
 		text-align: center;
 		margin-top: 60px;
 	}
+
 	.sub_title {
-		font: 11px "Pretend_M", sans-serif;
+		font-family: "Pretend_M", sans-serif;
+		font-size: 11px;
+
 		color: #787878;
 		text-align: center;
 		margin: 5px 0 50px 0;
@@ -2538,7 +2560,8 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		position: relative;
 		top: 28px;
 		left: 28px;
-		font: 11px/1 "Gmarket_M", sans-serif;
+		font-family: "Gmarket_M", sans-serif;
+		font-size: 11px;
 		letter-spacing: -1px;
 		color: #595959;
 		text-align: left;
@@ -2684,12 +2707,14 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 
 	.BR_Benefit_box .container .contents_box .Store_contents .Store_title {
 		text-align: center;
-		font: 24px "FRADMCN", sans-serif;
+		font-family: "FRADMCN", sans-serif;
+		font-size: 24px;
 		color: #ff5484;
 	}
 	.BR_Benefit_box .container .contents_box .Store_contents .text {
 		text-align: center;
-		font: 11px "Pretend_M", sans-serif;
+		font-family: "Pretend_M", sans-serif;
+		font-size: 11px;
 		color: #787878;
 		line-height: 16px;
 	}
@@ -2713,12 +2738,14 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 	}
 	.BR_Benefit_box .container .contents_box .BR_Way_contents .BR_Way_title {
 		text-align: center;
-		font: 24px "FRADMCN", sans-serif;
+		font-family: "FRADMCN", sans-serif;
+		font-size: 24px;
 		color: #ff5484;
 	}
 	.BR_Benefit_box .container .contents_box .BR_Way_contents .text {
 		text-align: center;
-		font: 11px "Pretend_M", sans-serif;
+		font-family: "Pretend_M", sans-serif;
+		font-size: 11px;
 		color: #787878;
 		line-height: 16px;
 	}
