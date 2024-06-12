@@ -2596,12 +2596,20 @@ footer .info .bt .sns a {
 	}
 
 	header .inner h1 {
+		position: fixed;
+		left: 50%;
+		top: 32px;
+		transform: translate(-50%, 0);
+		font-size: 0;
+	}
+
+	/* header .inner h1 {
 		position: absolute;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
 		font-size: 0;
-	}
+	} */
 
 	header .inner h1 img {
 		width: 114px;
@@ -2610,7 +2618,7 @@ footer .info .bt .sns a {
 
 	header .gnb {
 		display: flex;
-		margin: 50px auto 0;
+		margin: 45px auto 0;
 	}
 
 	header .gnb .menu {
@@ -2663,13 +2671,22 @@ footer .info .bt .sns a {
 		margin-bottom: 9px;
 	}
 
+	/* header .side_menu {
+		position: absolute;
+		right: 25px;
+		top: 50%;
+		transform: translate(0, -50%);
+		display: flex;
+	} */
 	header .side_menu {
+		/*margin-bottom: 47px; */
 		position: absolute;
 		right: 25px;
 		top: 50%;
 		transform: translate(0, -50%);
 		display: flex;
 	}
+
 	header .side_menu li img {
 		width: 16px;
 		height: 16px;
