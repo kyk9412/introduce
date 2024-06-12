@@ -163,11 +163,11 @@ header.pc-header .gnb .menu .menu_list a {
 	transition: 0.3s color;
 }
 header.pc-header:hover .gnb .menu .menu_list > a {
-	font-family: "FRADMCN", sans-serif;
+	font-family: "Pretend_M", sans-serif;
 	color: #fff;
 }
 header.pc-header:hover .gnb .menu .menu_list > a:hover {
-	font-family: "FRADMCN", sans-serif;
+	font-family: "Pretend_M", sans-serif;
 	color: #000;
 }
 header.pc-header .gnb .menu .menu_list .sub_menu {
