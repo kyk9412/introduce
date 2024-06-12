@@ -2125,7 +2125,7 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 	.BR_Benefit_box .container .contents_box .BR_Way_contents {
 		width: 100%;
 		position: relative;
-		margin: 0 auto;
+		margin: 0 auto 50px;
 	}
 	.BR_Benefit_box .container .contents_box .BR_Way_contents img {
 		display: none;
@@ -2136,7 +2136,7 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		height: 285px;
 		background: url("../img/benefit/image02-m.png") no-repeat center;
 		position: absolute;
-		top: 50px;
+		top: 70px;
 		left: 50%;
 		transform: translate(-50%, 0);
 	}
