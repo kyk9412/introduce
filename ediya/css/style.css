@@ -2611,7 +2611,7 @@ footer .info .bt .sns a {
 
 	header .gnb {
 		display: flex;
-		margin: 45px auto 0;
+		margin: 55px auto 0;
 	}
 
 	header .gnb .menu {
@@ -2663,30 +2663,8 @@ footer .info .bt .sns a {
 	header .gnb .menu .sub li {
 		margin-bottom: 9px;
 	}
-
 	header .side_menu {
-		position: relative;
-		display: flex;
-	}
-	header .side_menu li {
-		position: absolute;
-		right: 0;
-		top: 50%;
-		transform: translate(0, -50%);
-	}
-
-	header .side_menu li img {
-		width: 16px;
-		height: 16px;
-		font-size: 0;
-		margin: 0;
-		position: fixed;
-		top: 50%;
-		transform: translate(0, -50%);
-	}
-
-	header .side_menu li:first-child {
-		margin-right: 30px;
+		display: none;
 	}
 
 	.main {
