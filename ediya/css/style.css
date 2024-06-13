@@ -2611,7 +2611,7 @@ footer .info .bt .sns a {
 
 	header .gnb {
 		display: flex;
-		margin: 55px auto 0;
+		margin: 47px auto 0;
 	}
 
 	header .gnb .menu {
@@ -2626,6 +2626,7 @@ footer .info .bt .sns a {
 
 	header.on .gnb .menu {
 		align-items: flex-start;
+		margin-top: 15px;
 	}
 
 	header .gnb .menu > li {
@@ -2643,11 +2644,11 @@ footer .info .bt .sns a {
 	}
 
 	header.on .gnb .menu > li > a {
-		margin-bottom: 17px;
+		margin-bottom: 13px;
 	}
 
 	header .gnb .menu .sub {
-		font: 9px/1 "Pretend_L", sans-serif;
+		font: 8px/1 "Pretend_L", sans-serif;
 		color: #5972b9;
 		flex-direction: column;
 	}
