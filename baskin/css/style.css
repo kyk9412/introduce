@@ -625,7 +625,7 @@ header.pc-header.active .inner .side_menu .button .search::before {
 .New_Item .container .item .new_box6 {
 	width: 460px;
 	height: 650px;
-	background: #edf1d6;
+	background: #fdca2f;
 	border-radius: 25px;
 	position: relative;
 	top: 0;
@@ -633,7 +633,7 @@ header.pc-header.active .inner .side_menu .button .search::before {
 }
 .New_Item .container .item .new_title {
 	font: 23px "Pretend_B", sans-serif;
-	color: #404e00;
+	color: #fff;
 	position: absolute;
 	top: 31px;
 	left: 26px;
@@ -1713,7 +1713,7 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		background: #d7ac94;
 	}
 	.New_Item .container .BR_items_m .item_box .imgwrap06 {
-		background: #edf1d6;
+		background: #fdca2f;
 	}
 	.New_Item .container .BR_items_m .item_box .imgwrap07 {
 		background: #c69a81;
@@ -1756,7 +1756,7 @@ footer .container .site_footer_info .family_site .family_site_list.on {
 		color: #9c6644;
 	}
 	.New_Item .container .BR_items_m .item_box .textwrap06 .new_title {
-		color: #404e00;
+		color: #fdca2f;
 	}
 	.New_Item .container .BR_items_m .item_box .textwrap07 .new_title {
 		color: #660708;
